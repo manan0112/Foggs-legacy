@@ -1,4 +1,5 @@
 # Index (Home)
+Live page: https://manan0112.github.io/Foggs-legacy/
 
 Foundation for Global Governance and Sustainability
 
@@ -47,6 +48,7 @@ Publications — Searchable list of papers and PDFs
 Archive — Chronological record, grouped by year
 
 # About
+Live page: https://manan0112.github.io/Foggs-legacy/about.html
 
 About FOGGS
 
@@ -106,6 +108,7 @@ Subscribe and media
 Sign up for regular updates on our work, news, and activities via the newsletter form or by emailing info@foggs.org. We also share recordings and briefs on YouTube; search for the FOGGS channel or view recent uploads.
 
 # Work
+Live page: https://manan0112.github.io/Foggs-legacy/work.html
 
 Work and Initiatives
 
@@ -134,6 +137,7 @@ How to navigate
 The archive lists every PDF by year. The publications page lets you search by title or year. Legacy links continue to work via the router.
 
 # Contact
+Live page: https://manan0112.github.io/Foggs-legacy/contact.html
 
 Contact
 
@@ -169,6 +173,8 @@ Social channels
 Follow updates on LinkedIn and explore event recordings on our YouTube channel (search "FOGGS" on YouTube).
 
 # Global Resilience Council (GRC)
+Live page: https://manan0112.github.io/Foggs-legacy/grc.html
+Example section: https://manan0112.github.io/Foggs-legacy/grc.html#overview
 
 Global Resilience Council (GRC)
 
@@ -213,6 +219,7 @@ Get involved
 - Partner on pilot risk dashboards or stress-testing workshops.
 
 # DEMOCRAT Project
+Live page: https://manan0112.github.io/Foggs-legacy/democrat.html
 
 DEMOCRAT Project
 
@@ -250,6 +257,7 @@ Get involved
 - Volunteer as facilitator or research partner.
 
 # Project CASA / M4CE
+Live page: https://manan0112.github.io/Foggs-legacy/casa.html
 
 Project CASA / M4CE
 
@@ -281,6 +289,7 @@ Workshop notes
 - Action plan on post-COVID pathways
 
 # Global South Perspectives Network (GSPN)
+Live page: https://manan0112.github.io/Foggs-legacy/gspn.html
 
 Global South Perspectives Network (GSPN)
 
@@ -314,6 +323,7 @@ Get updates
 - Suggest speakers or topics for upcoming sessions.
 
 # Peace Reflection Group (PRG)
+Live page: https://manan0112.github.io/Foggs-legacy/prg.html
 
 Peace Reflection Group (PRG)
 
@@ -347,6 +357,7 @@ Join PRG
 - Media and conveners can request briefings or speakers.
 
 # COVIDEA
+Live page: https://manan0112.github.io/Foggs-legacy/covidea.html
 
 COVIDEA
 
@@ -378,6 +389,7 @@ Follow-ups
 - UN and the world post COVID-19 action plan
 
 # Open Consultation Series
+Live page: https://manan0112.github.io/Foggs-legacy/consultation.html
 
 Open Consultation Series
 
@@ -411,6 +423,7 @@ Join the calls
 - Suggest topics or speakers for upcoming Mondays.
 
 # Katoikos
+Live page: https://manan0112.github.io/Foggs-legacy/katoikos.html
 
 Katoikos
 
@@ -445,6 +458,7 @@ Pitch articles or multimedia contributions via the Katoikos submission form.
 Submit through Katoikos.world
 
 # The Global Citizen
+Live page: https://manan0112.github.io/Foggs-legacy/global-citizen.html
 
 The Global Citizen
 
@@ -476,6 +490,7 @@ Archive
 Browse PDFs via the publications and archive pages; filenames are preserved for citation.
 
 # Publications
+Live page: https://manan0112.github.io/Foggs-legacy/publications.html
 
 Publications
 
@@ -561,6 +576,7 @@ Publications table (year — title — format)
 2019 — A new kind of education for global citizens draft2 16 Feb 2019 1 — PDF
 
 # Archive
+Live page: https://manan0112.github.io/Foggs-legacy/archive.html
 
 Archive
 
