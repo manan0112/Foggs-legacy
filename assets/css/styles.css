@@ -249,6 +249,7 @@ small.muted {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 16px;
+  align-items: start;
 }
 
 .profile-card {
@@ -257,6 +258,8 @@ small.muted {
   border-radius: 8px;
   padding: 16px;
   display: grid;
+  align-items: start;
+  align-self: start;
   gap: 8px;
 }
 
