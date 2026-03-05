@@ -6,6 +6,9 @@
   --cube-face: #2f4b70;
   --cube-face-quiet: #03516c;
   --cube-text: #ffffff;
+  --cube-front-text: #1c2f45;
+  --cube-front-overlay: rgba(255, 255, 255, 0.25);
+  --cube-front-overlay-hover: rgba(255, 255, 255, 0.15);
   --cube-transition: 120ms;
 }
 
@@ -107,10 +110,35 @@
   transition: background var(--cube-transition) ease, color var(--cube-transition) ease;
 }
 
+.face-empty {
+  pointer-events: none;
+  background: transparent;
+  color: transparent;
+  cursor: default;
+}
+
 .face:hover,
 .face:focus-visible {
   background: var(--cube-face);
   outline: none;
+}
+
+.face-front {
+  color: transparent;
+  background: linear-gradient(var(--cube-front-overlay), var(--cube-front-overlay));
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-color: rgba(0, 0, 0, 0.08);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.35);
+}
+
+.face-front:hover,
+.face-front:focus-visible {
+  /* Hide the logo on hover and show readable text on a light plate. */
+  background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9));
+  color: var(--cube-front-text);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
 }
 
 .face-front  { transform: translateZ(calc(var(--cube-size) / 2)); }
@@ -119,6 +147,17 @@
 .face-left   { transform: rotateY(-90deg) translateZ(calc(var(--cube-size) / 2)); }
 .face-top    { transform: rotateX(90deg) translateZ(calc(var(--cube-size) / 2)); }
 .face-bottom { transform: rotateX(-90deg) translateZ(calc(var(--cube-size) / 2)); }
+
+/* Logo-backed front faces with a light overlay so text stays readable. */
+.cube-wrapper:nth-child(1) .face-front { --face-front-image: url("assets/files/Logos/Global-Reslience-Council.png"); background-image: linear-gradient(var(--cube-front-overlay), var(--cube-front-overlay)), var(--face-front-image); }
+.cube-wrapper:nth-child(2) .face-front { --face-front-image: url("assets/files/Logos/Democrat.jpg"); background-image: linear-gradient(var(--cube-front-overlay), var(--cube-front-overlay)), var(--face-front-image); }
+.cube-wrapper:nth-child(3) .face-front { --face-front-image: url("assets/files/Logos/ProjectCASA.jpg"); background-image: linear-gradient(var(--cube-front-overlay), var(--cube-front-overlay)), var(--face-front-image); }
+.cube-wrapper:nth-child(4) .face-front { --face-front-image: url("assets/files/Logos/GSPNLogo.jpg"); background-image: linear-gradient(var(--cube-front-overlay), var(--cube-front-overlay)), var(--face-front-image); }
+.cube-wrapper:nth-child(5) .face-front { --face-front-image: url("assets/files/Logos/PRG.png"); background-image: linear-gradient(var(--cube-front-overlay), var(--cube-front-overlay)), var(--face-front-image); }
+.cube-wrapper:nth-child(6) .face-front { --face-front-image: url("assets/files/Logos/COVIDEA.png"); background-image: linear-gradient(var(--cube-front-overlay), var(--cube-front-overlay)), var(--face-front-image); }
+.cube-wrapper:nth-child(7) .face-front { --face-front-image: url("assets/files/Logos/FOGGS-Open-Consultation-Mondays.png"); background-image: linear-gradient(var(--cube-front-overlay), var(--cube-front-overlay)), var(--face-front-image); }
+.cube-wrapper:nth-child(8) .face-front { --face-front-image: url("assets/files/Logos/Katoikos.png"); background-image: linear-gradient(var(--cube-front-overlay), var(--cube-front-overlay)), var(--face-front-image); }
+.cube-wrapper:nth-child(9) .face-front { --face-front-image: url("assets/files/Logos/theglobalcitizen.png"); background-image: linear-gradient(var(--cube-front-overlay), var(--cube-front-overlay)), var(--face-front-image); }
 
 /* Show 3D cubes only when JS marks the page as enhanced. */
 body.js-enabled .cube-shell { display: block; }
