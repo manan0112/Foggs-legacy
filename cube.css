@@ -21,14 +21,14 @@
 }
 
 .hero-cubes .lede {
-  margin: 0 0 16px;
+  margin: 0 0 48px;
 }
 
 .cube-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 3rem;
-  margin-top: 28px;
+  margin-top: 48px;
 }
 
 .cube-wrapper {
