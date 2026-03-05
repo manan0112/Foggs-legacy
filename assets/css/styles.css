@@ -151,10 +151,20 @@ main ul {
 }
 
 .list-inline li {
-  display: flex;
-  justify-content: space-between;
   border-bottom: 1px solid var(--border);
   padding: 8px 0;
+}
+
+.list-inline li > a {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  width: 100%;
+}
+
+.list-inline li > a span:first-child {
+  flex: 1 1 0;
 }
 
 .list-inline .label {
