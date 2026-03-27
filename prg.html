@@ -43,6 +43,39 @@
       <p>PRG activities included policy reflection, analytical papers, opinion pieces, and communications with international institutions and political leaders. Members developed shared positions on multilateralism, peacebuilding, and governance reform, issuing open letters, statements, and appeals, and convening discussions on emerging global governance challenges.</p>
     </section>
 
+    <section class="section" id="prg-initiatives and events" aria-label="PRG initiatives">
+      <h2>PRG Initiatives</h2>
+      <ul class="archive-list" id="prg-initiatives-list">
+        <li>Loading initiatives…</li>
+      </ul>
+      <script>
+        (function () {
+          const target = document.getElementById('prg-initiatives-list');
+          fetch('assets/data/prg-initiatives.json')
+            .then(function (resp) { return resp.json(); })
+            .then(function (items) {
+              target.innerHTML = '';
+              items.forEach(function (item) {
+                const li = document.createElement('li');
+                const link = document.createElement('a');
+                link.href = item.url;
+                link.textContent = item.title;
+                if (item.external || /^https?:/i.test(item.url)) {
+                  link.target = '_blank';
+                  link.rel = 'noopener';
+                }
+                const dateText = document.createTextNode(' (' + item.date + ')');
+                li.append(link, dateText);
+                target.appendChild(li);
+              });
+            })
+            .catch(function () {
+              target.innerHTML = '<li>Unable to load initiatives right now.</li>';
+            });
+        }());
+      </script>
+    </section>
+
     <section class="section" id="publications-outputs" aria-label="Publications or research outputs">
       <h2>Publications or Research Outputs</h2>
       <p>PRG participants contributed publications and reflection papers on peace, security, and governance, including:</p>
@@ -56,15 +89,6 @@
         <li><a href="assets/files/2023/02/PRG-contribution-to-UNSG-New-Agenda-for-Peace-Final15Jan2023.pdf">New Agenda for Peace (2023)</a></li>
       </ul>
       <p>Participants also contributed blog posts and commentary on global governance, globalization, and human rights.</p>
-    </section>
-
-    <section class="section" id="events-dialogues" aria-label="Events and dialogues">
-      <h2>Events and Dialogues</h2>
-      <ul>
-        <li><strong>Nuclear Facilities / Zaporizhzhia Webinar</strong> — September 2023</li>
-        <li><strong>Inclusive Global Governance for a Peaceful and Resilient World</strong> — September 2023</li>
-      </ul>
-      <p>PRG also issued public letters, statements, and appeals on international developments, including communications related to Israel–Palestine and other global security issues.</p>
     </section>
 
     <section class="section" id="outcomes-impact" aria-label="Outcomes or impact">
