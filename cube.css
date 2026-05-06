@@ -153,11 +153,11 @@
 .cube-wrapper:nth-child(2) .face-front { --face-front-image: url("assets/files/Logos/Democrat.jpg"); background-image: linear-gradient(var(--cube-front-overlay), var(--cube-front-overlay)), var(--face-front-image); }
 .cube-wrapper:nth-child(3) .face-front { --face-front-image: url("assets/files/Logos/ProjectCASA.jpg"); background-image: linear-gradient(var(--cube-front-overlay), var(--cube-front-overlay)), var(--face-front-image); }
 .cube-wrapper:nth-child(4) .face-front { --face-front-image: url("assets/files/Logos/GSPNLogo.jpg"); background-image: linear-gradient(var(--cube-front-overlay), var(--cube-front-overlay)), var(--face-front-image); }
-.cube-wrapper:nth-child(5) .face-front { --face-front-image: url("assets/files/Logos/PRG.png"); background-image: linear-gradient(var(--cube-front-overlay), var(--cube-front-overlay)), var(--face-front-image); }
+.cube-wrapper:nth-child(5) .face-front { --face-front-image: url("assets/files/Hexalogue.png"); background-image: linear-gradient(var(--cube-front-overlay), var(--cube-front-overlay)), var(--face-front-image); }
 .cube-wrapper:nth-child(6) .face-front { --face-front-image: url("assets/files/Logos/COVIDEA.png"); background-image: linear-gradient(var(--cube-front-overlay), var(--cube-front-overlay)), var(--face-front-image); }
 .cube-wrapper:nth-child(7) .face-front { --face-front-image: url("assets/files/Logos/FOGGS-Open-Consultation-Mondays.png"); background-image: linear-gradient(var(--cube-front-overlay), var(--cube-front-overlay)), var(--face-front-image); }
 .cube-wrapper:nth-child(8) .face-front { --face-front-image: url("assets/files/Logos/Katoikos.png"); background-image: linear-gradient(var(--cube-front-overlay), var(--cube-front-overlay)), var(--face-front-image); }
-.cube-wrapper:nth-child(9) .face-front { --face-front-image: url("assets/files/Logos/theglobalcitizen.png"); background-image: linear-gradient(var(--cube-front-overlay), var(--cube-front-overlay)), var(--face-front-image); }
+.cube-wrapper:nth-child(9) .face-front { --face-front-image: url("assets/files/Logos/PRG.png"); background-image: linear-gradient(var(--cube-front-overlay), var(--cube-front-overlay)), var(--face-front-image); }
 
 /* Show 3D cubes only when JS marks the page as enhanced. */
 body.js-enabled .cube-shell { display: block; }
