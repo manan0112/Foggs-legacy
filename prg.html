@@ -3,8 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FOGGS | Peace Reflection Group</title>
-  <link rel="icon" type="image/png" href="assets/files/favicon.png">
+  <title>Peace Reflection Group — FOGGS</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/files/favicon-32.png?v=2">
+  <link rel="icon" type="image/png" sizes="180x180" href="assets/files/favicon-180.png?v=2">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/files/favicon-180.png?v=2">
+  <link rel="shortcut icon" href="assets/files/favicon-32.png?v=2">
   <link rel="stylesheet" href="assets/css/styles.css">
   <script src="assets/js/layout.js" defer></script>
 </head>
@@ -43,37 +46,11 @@
       <p>PRG activities included policy reflection, analytical papers, opinion pieces, and communications with international institutions and political leaders. Members developed shared positions on multilateralism, peacebuilding, and governance reform, issuing open letters, statements, and appeals, and convening discussions on emerging global governance challenges.</p>
     </section>
 
-    <section class="section" id="prg-initiatives and events" aria-label="PRG initiatives">
+    <section class="section" id="prg-initiatives" aria-label="PRG initiatives">
       <h2>PRG Initiatives</h2>
       <ul class="archive-list" id="prg-initiatives-list">
         <li>Loading initiatives…</li>
       </ul>
-      <script>
-        (function () {
-          const target = document.getElementById('prg-initiatives-list');
-          fetch('assets/data/prg-initiatives.json')
-            .then(function (resp) { return resp.json(); })
-            .then(function (items) {
-              target.innerHTML = '';
-              items.forEach(function (item) {
-                const li = document.createElement('li');
-                const link = document.createElement('a');
-                link.href = item.url;
-                link.textContent = item.title;
-                if (item.external || /^https?:/i.test(item.url)) {
-                  link.target = '_blank';
-                  link.rel = 'noopener';
-                }
-                const dateText = document.createTextNode(' (' + item.date + ')');
-                li.append(link, dateText);
-                target.appendChild(li);
-              });
-            })
-            .catch(function () {
-              target.innerHTML = '<li>Unable to load initiatives right now.</li>';
-            });
-        }());
-      </script>
     </section>
 
     <section class="section" id="publications-outputs" aria-label="Publications or research outputs">
@@ -98,5 +75,6 @@
   </main>
 
   <div data-include="footer"></div>
+  <script src="assets/js/pages/prg.js"></script>
 </body>
 </html>

@@ -3,8 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FOGGS | Archive</title>
-  <link rel="icon" type="image/png" href="assets/files/favicon.png">
+  <title>Archive — FOGGS</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/files/favicon-32.png?v=2">
+  <link rel="icon" type="image/png" sizes="180x180" href="assets/files/favicon-180.png?v=2">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/files/favicon-180.png?v=2">
+  <link rel="shortcut icon" href="assets/files/favicon-32.png?v=2">
   <link rel="stylesheet" href="assets/css/styles.css">
   <script src="assets/js/layout.js" defer></script>
 </head>
@@ -88,6 +91,7 @@
         <li>
           <a href="assets/files/campaign_exports/FOGGS%20Nov%202023%20Update%20%28copy%2001%29__FOGGS.html" target="_blank" rel="noopener">November 2023</a>
         </li>
+        <li>
           <a href="assets/files/campaign_exports/FOGGS%20Sep-Oct%202023%20Update__FOGGS%20%28Emailing%20List%2C%20Team%29.html" target="_blank" rel="noopener">September-October 2023</a>
         </li>
         <li>
@@ -99,6 +103,7 @@
         <li>
           <a href="assets/files/campaign_exports/FOGGS%20April-May%20Update__FOGGS%20%28Emailing%20List%2C%20Team%29.html" target="_blank" rel="noopener">April-May 2023</a>
         </li>
+        <li>
           <a href="assets/files/campaign_exports/FOGGS%20March%20Update__FOGGS%20%28Emailing%20List%2C%20Team%29.html" target="_blank" rel="noopener">March 2023</a>
         </li>
         <li>
@@ -157,43 +162,6 @@
         </li>
       </ul>
     </section>
-
-    <script>
-      (() => {
-        const section = document.querySelector('section[aria-label="Newsletters"]');
-        if (!section) return;
-
-        section.addEventListener('click', (event) => {
-          const link = event.target.closest('a[target="_blank"]');
-          if (!link) return;
-          event.preventDefault();
-
-          const label = (link.textContent || '').trim();
-          const href = link.href;
-          const opened = window.open(href, '_blank');
-          if (!opened) return;
-
-          const setTitle = () => {
-            try {
-              opened.document.title = label;
-            } catch (err) {
-              // ignore cross-origin or timing issues
-            }
-          };
-
-          opened.addEventListener('load', setTitle);
-          // Fallback: poll a few times in case load fired before binding
-          let attempts = 0;
-          const timer = setInterval(() => {
-            attempts += 1;
-            setTitle();
-            if (attempts >= 20 || opened.closed) {
-              clearInterval(timer);
-            }
-          }, 100);
-        });
-      })();
-    </script>
 
     <section aria-label="Archive by year">
       <!-- Generated from foggs_urls.csv on 2025-12-30 -->
@@ -814,5 +782,6 @@
   </main>
 
   <div data-include="footer"></div>
+  <script src="assets/js/pages/archive.js"></script>
 </body>
 </html>
