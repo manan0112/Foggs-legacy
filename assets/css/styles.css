@@ -105,6 +105,12 @@ header.site-header {
   color: var(--accent);
 }
 
+.nav-links a[aria-current="page"] {
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-weight: 600;
+}
+
 .main {
   max-width: 900px;
   margin: 0 auto;
@@ -253,12 +259,87 @@ table.simple-table tr:hover td {
   font-size: 14px;
 }
 
+.footer-row {
+  margin: 0;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.footer-left {
+  flex: 1 1 auto;
+}
+
+.footer-email {
+  flex: 0 0 auto;
+  white-space: nowrap;
+}
+
 footer a {
   color: var(--muted);
 }
 
 small.muted {
   color: var(--muted);
+}
+
+/* Reusable figure/image utilities */
+.figure-top-gap {
+  margin: 18px 0 0;
+}
+
+.figure-centered {
+  margin: 12px auto 16px;
+  text-align: center;
+}
+
+.figure-logo {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.img-fluid {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.img-rounded {
+  border-radius: 6px;
+}
+
+.img-centered {
+  margin: 0 auto;
+}
+
+.img-max-360 {
+  max-width: 360px;
+}
+
+.img-logo-sm {
+  max-width: 200px;
+  display: inline-block;
+}
+
+/* COVIDEA member table */
+.member-table {
+  width: 100%;
+  border-collapse: collapse;
+  line-height: 1.25;
+}
+
+.member-table td {
+  padding: 4px 8px;
+  vertical-align: top;
+}
+
+.member-table col:first-child {
+  width: 25%;
+}
+
+.member-table col:last-child {
+  width: 75%;
 }
 
 .profile-grid {
@@ -355,6 +436,12 @@ small.muted {
     flex-direction: column;
     gap: 6px;
   }
+
+  .footer-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+  }
 }
 
 /* ── Cube index ── */
@@ -392,7 +479,7 @@ small.muted {
   display: block;
   font-weight: 600;
   margin-bottom: 0.6rem;
-  color: var(--fg);
+  color: var(--text);
   text-decoration: none;
 }
 
