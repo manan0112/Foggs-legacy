@@ -856,4 +856,32 @@ small.muted {
     height: auto;
     aspect-ratio: 16 / 9;
   }
+
+  /* People grids: collapse 3- and 4-col tables to 2 columns on mobile */
+  .people-table.three-cols,
+  .people-table.four-cols {
+    display: block;
+  }
+
+  .people-table.three-cols tbody,
+  .people-table.four-cols tbody {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .people-table.three-cols tr,
+  .people-table.four-cols tr {
+    display: contents;
+  }
+
+  .people-table.three-cols td,
+  .people-table.four-cols td {
+    width: auto;
+    border-top: 1px solid var(--border);
+  }
+
+  .person img {
+    width: 52px;
+    height: 52px;
+  }
 }
