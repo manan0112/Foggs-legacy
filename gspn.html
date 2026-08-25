@@ -32,7 +32,7 @@
         <li>Expand and strengthen the network of participating think tanks and experts.</li>
       </ul>
     </section>
-
+    
     <section class="section" id="organisation" aria-label="Organisation and membership">
       <h2>Organisation and Membership</h2>
       <p>GSPN was established by three co-founding organizations. The Inclusive Society Institute and HumanizaCom continue to convene the network.</p>
@@ -42,6 +42,7 @@
       <p>An autonomous research and policy organization in South Africa dedicated to strengthening multi-party democracy and advancing social justice, cohesion, and economic development through research, dialogue, and collaboration.</p>
       <h3>Foundation for Global Governance and Sustainability (FOGGS)</h3>
       <p>A Brussels-based think-and-do tank (2013 - 2026) that co-founded GSPN and worked on global governance reform and sustainable globalization, acting as research centre, discussion forum, and advocacy platform with a focus on strengthening the UN and global governance for human security, resilience, and peace. FOGGS has since ceased operations.</p>
+        <p>Two initiatives formerly convened by FOGGS —  the Katoikos.world online magazine and the Monday Open Consultations — were transferred to GSPN following its closure and now operate under the Network's convening support.</p>
       <h3>Member Institutions</h3>
       <p>The network brings together think tanks and research organizations spanning Africa, Latin America, and Europe, including the Nigerian Institute of International Affairs, the Institute for Global Dialogue (South Africa), the Heritage Institute for Policy Studies (Somalia), the Africa Policy Institute (Kenya), the Mashariki Research &amp; Policy Centre (Kenya), the Kamanda Rajabu Diwani Centre (Tanzania), and the Transatlantic Institute for South-South Cooperation (Senegal), among others. The full membership is listed on the <a href="https://globalsouthperspectives.org/participating-institutions/">GSPN participating institutions page</a>.</p>
     </section>
@@ -52,6 +53,7 @@
       <ul>
         <li><strong>Policy Dialogues</strong> — Regular online sessions addressing key governance issues, with guiding questions circulated in advance to focus contributions and ensure substantive exchange among members.</li>
         <li><strong>Open Consultation Mondays</strong> — A monthly open-access series launched in 2026, broadening participation beyond the core network. Each session generates a published discussion summary contributing to an ongoing multilateral policy dialogue.</li>
+        <li><strong>Katoikos.world</strong> — The Katoikos online magazine (formerly run by FOGGS) was transferred to the Global South Perspectives Network (GSPN) following FOGGS's closure and now continues under the Network's auspices.</li>
         <li><strong>Information and Research Exchange</strong> — Members share publications, events, and analysis produced by their institutions, and flag upcoming international processes where coordinated engagement can amplify Global South perspectives.</li>
         <li><strong>Collaborative Research and Advocacy</strong> — Joint production of policy briefs and reports on multilateral reform, submitted to and presented at UN-level processes including the Summit of the Future and the UN General Assembly high-level segment.</li>
         <li><strong>Engagement in International Processes</strong> — Active participation in high-level UN meetings, regional consultations, and global governance reform discussions, including side events at the UN General Assembly and contributions to the Pact for the Future process.</li>
@@ -61,33 +63,77 @@
     <section class="section" id="events" aria-label="Events and dialogues">
       <h2>Events and Dialogues</h2>
 
-      <div class="video-pair">
-        <div class="video-pair-item">
-          <h3><a href="https://www.youtube.com/live/x1xcKrmRbZ4" target="_blank" rel="noopener noreferrer">Inclusive Global Governance for a Peaceful and Resilient World</a></h3>
-          <p><time>15 September 2023</time> | New York, USA</p>
-          <div class="video-wrap">
-            <iframe src="https://www.youtube.com/embed/x1xcKrmRbZ4" title="Inclusive Global Governance for a Peaceful and Resilient World" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-        </div>
-        <div class="video-pair-item">
-          <p>Full-day event on the sidelines of the UN General Assembly high-level segment, gathering experts and stakeholders to discuss inclusive global governance reform and launch two GSPN reports: <em>Global South Perspectives on Global Governance Reform</em> and <em>An Enhanced Role for the UN in Peace &amp; Human Security</em>.</p>
-        </div>
-      </div>
-
-      <div class="video-pair">
-        <div class="video-pair-item">
-          <h3><a href="https://www.youtube.com/watch?v=S8ZaD7MUfsc" target="_blank" rel="noopener noreferrer">Zero Draft on the Future of Global Governance</a></h3>
-          <p><time>1 March 2024</time> | Online Webinar</p>
-          <div class="video-wrap">
-            <iframe src="https://www.youtube.com/embed/S8ZaD7MUfsc" title="Zero Draft on the Future of Global Governance" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-        </div>
-        <div class="video-pair-item">
-          <p>Examined the Zero Draft of the Pact for the Future ahead of the UN Summit of the Future, with speakers from policy institutions and academia exploring collective action, inclusive policymaking, and strengthened multilateral cooperation from a Global South perspective.</p>
-        </div>
-      </div>
+      <div id="gspn-events" aria-live="polite"></div>
 
       <p>Past and upcoming events are listed on the <a href="https://globalsouthperspectives.org/events/">GSPN events page</a>.</p>
+
+      <script>
+      (function(){
+        const container = document.getElementById('gspn-events');
+        if (!container) return;
+
+        function formatDate(dateStr){
+          if(!dateStr) return '';
+          const parts = dateStr.split('-');
+          const year = parts[0];
+          const month = parts[1] ? parseInt(parts[1],10) : null;
+          const day = parts[2] ? parseInt(parts[2],10) : null;
+          const monthNames = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+          if(month && day) return day + ' ' + monthNames[month-1] + ' ' + year;
+          if(month) return monthNames[month-1] + ' ' + year;
+          return year;
+        }
+
+        fetch('assets/data/events.json')
+          .then(r => r.json())
+          .then(events => {
+            const gspn = events.filter(e => e.project === 'gspn')
+                                .sort((a,b) => (b.date||'').localeCompare(a.date||''));
+            if(gspn.length === 0){
+              container.innerHTML = '<p>No GSPN events found.</p>';
+              return;
+            }
+
+            const frag = document.createDocumentFragment();
+            gspn.forEach(ev => {
+              const vp = document.createElement('div'); vp.className = 'video-pair';
+
+              const left = document.createElement('div'); left.className = 'video-pair-item';
+              const h3 = document.createElement('h3');
+              const a = document.createElement('a');
+              const videoUrl = ev.youtube ? ('https://www.youtube.com/watch?v=' + ev.youtube) : (ev.link || '#');
+              a.href = videoUrl; a.target = '_blank'; a.rel = 'noopener noreferrer'; a.textContent = ev.title;
+              h3.appendChild(a);
+              const pd = document.createElement('p');
+              const timeEl = document.createElement('time'); timeEl.textContent = formatDate(ev.date);
+              pd.appendChild(timeEl);
+              if(ev.location){ pd.append(' | ' + ev.location); }
+
+              const wrap = document.createElement('div'); wrap.className = 'video-wrap';
+              if(ev.youtube){
+                const iframe = document.createElement('iframe');
+                iframe.src = 'https://www.youtube.com/embed/' + ev.youtube;
+                iframe.title = ev.title;
+                iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+                iframe.allowFullscreen = true;
+                wrap.appendChild(iframe);
+              }
+
+              left.appendChild(h3); left.appendChild(pd); if(wrap.childNodes.length) left.appendChild(wrap);
+
+              const right = document.createElement('div'); right.className = 'video-pair-item';
+              const pdesc = document.createElement('p'); pdesc.innerHTML = ev.description || '';
+              right.appendChild(pdesc);
+
+              vp.appendChild(left); vp.appendChild(right);
+              frag.appendChild(vp);
+            });
+
+            container.appendChild(frag);
+          })
+          .catch(() => { container.innerHTML = '<p>Unable to load events right now.</p>'; });
+      })();
+      </script>
     </section>
 
     <section class="section" id="publications" aria-label="Publications">

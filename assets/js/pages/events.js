@@ -11,6 +11,7 @@
     'grand-narrative': 'The Grand Narrative',
     'sparta-komvos': 'sparta.komvos',
     'democrat': 'DEMOCRAT Project',
+    'foggs': 'FOGGS',
   };
 
   function formatDate(dateStr) {
