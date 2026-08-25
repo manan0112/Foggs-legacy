@@ -10,6 +10,43 @@
   <link rel="shortcut icon" href="assets/files/favicon-32.png?v=2">
   <link rel="stylesheet" href="assets/css/styles.css">
   <script src="assets/js/layout.js" defer></script>
+  <style>
+    .archive-grid{
+      display:grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap:16px;
+      align-items:start;
+      margin-top:1rem;
+    }
+    .archive-card{
+      display:block;
+      text-decoration:none;
+      color:inherit;
+      border:1px solid #e6e6e6;
+      padding:8px;
+      background:#fff;
+      border-radius:6px;
+    }
+    .archive-card img{
+      width:100%;
+      height:140px;
+      object-fit:cover;
+      border-radius:4px;
+      display:block;
+      margin-bottom:8px;
+    }
+    .archive-card .title{
+      font-weight:600;
+      font-size:14px;
+      line-height:1.2;
+    }
+    @media (max-width:900px){
+      .archive-grid{grid-template-columns:repeat(2,1fr);}    
+    }
+    @media (max-width:560px){
+      .archive-grid{grid-template-columns:repeat(1,1fr);}    
+    }
+  </style>
 </head>
 <body>
   <div data-include="header"></div>
@@ -21,146 +58,9 @@
     <section class="section" aria-label="Newsletters">
       <h2>Newsletters</h2>
       <p class="lede">All FOGGS Updates</p>
-      <ul class="archive-list">
-        <li>
-          <a href="assets/files/campaign_exports/FOGGS%20Update%20October%202025%20%28copy%2001%29__FOGGS.html" target="_blank" rel="noopener">October 2025</a>
-        </li>
-        <li>
-          <a href="assets/files/campaign_exports/FOGGS%20Update%20September%202025%20%28copy%2001%29__FOGGS.html" target="_blank" rel="noopener">September 2025</a>
-        </li>
-        <li>
-          <a href="assets/files/campaign_exports/FOGGS-Update-2025-08.html" target="_blank" rel="noopener">August 2025</a>
-        </li>
-        <li>
-          <a href="assets/files/campaign_exports/FOGGS-Update-2025-07.html" target="_blank" rel="noopener">July 2025</a>
-        </li>
-        <li>
-          <a href="assets/files/campaign_exports/FOGGS%20Update%20June%202025__FOGGS%20%28Emailing%20List%2C%20Team%29.html" target="_blank" rel="noopener">June 2025</a>
-        </li>
-        <li>
-          <a href="assets/files/campaign_exports/FOGGS%20May%202025%20Update%20%28copy%2002%29__FOGGS%20%28Emailing%20List%2C%20Team%29.html" target="_blank" rel="noopener">May 2025</a>
-        </li>
-        <li>
-          <a href="assets/files/campaign_exports/FOGGS%20April%202025%20Update%20%28copy%2001%29__FOGGS%20%28Emailing%20List%2C%20Team%29.html" target="_blank" rel="noopener">April 2025</a>
-        </li>
-        <li>
-          <a href="assets/files/campaign_exports/FOGGS%20March%202025%20Update%20%28copy%2001%29__FOGGS.html" target="_blank" rel="noopener">March 2025</a>
-        </li>
-        <li>
-          <a href="assets/files/campaign_exports/FOGGS%20Feb%202025%20Update%20%28copy%2001%29__FOGGS.html" target="_blank" rel="noopener">February 2025</a>
-        </li>
-        <li>
-          <a href="assets/files/campaign_exports/FOGGS%20Jan%202025%20Update%20%28copy%2001%29__FOGGS.html" target="_blank" rel="noopener">January 2025</a>
-        </li>
-        <li>
-          <a href="assets/files/campaign_exports/FOGGS%20Dec%202024%20Update__FOGGS%20%28Emailing%20List%2C%20Team%29.html" target="_blank" rel="noopener">December 2024</a>
-        </li>
-        <li>
-          <a href="assets/files/campaign_exports/FOGGS%20Nov%202024%20Update%20%28copy%2001%29__FOGGS.html" target="_blank" rel="noopener">November 2024</a>
-        </li>
-        <li>
-          <a href="assets/files/campaign_exports/FOGGS%20Oct%202024%20Update__FOGGS%20%28Emailing%20List%2C%20Team%29.html" target="_blank" rel="noopener">October 2024</a>
-        </li>
-        <li>
-          <a href="assets/files/campaign_exports/FOGGS%20Sep%202024%20Update%20%28copy%2001%29__FOGGS%20%28Emailing%20List%2C%20Team%29.html" target="_blank" rel="noopener">September 2024</a>
-        </li>
-        <li>
-          <a href="assets/files/campaign_exports/FOGGS%20July-Aug%202024%20Update%20%28copy%2001%29__FOGGS%20%28Emailing%20List%2C%20Team%29.html" target="_blank" rel="noopener">July-August 2024</a>
-        </li>
-        <li>
-          <a href="assets/files/campaign_exports/FOGGS%20June%202024%20Update__FOGGS%20%28Emailing%20List%2C%20Team%29.html" target="_blank" rel="noopener">June 2024</a>
-        </li>
-        <li>
-          <a href="assets/files/campaign_exports/FOGGS%20May%202024%20Update__FOGGS%20%28Emailing%20List%2C%20Team%29.html" target="_blank" rel="noopener">May 2024</a>
-        </li>
-        <li>
-          <a href="assets/files/campaign_exports/FOGGS%20April%202024%20Update%20%28copy%2002%29__FOGGS%20%28Emailing%20List%2C%20Team%29.html" target="_blank" rel="noopener">April 2024</a>
-        </li>
-        <li>
-          <a href="assets/files/campaign_exports/FOGGS%20March%202024%20Update%20%28copy%2001%29__FOGGS%20%28Emailing%20List%2C%20Team%29.html" target="_blank" rel="noopener">March 2024</a>
-        </li>
-        <li>
-          <a href="assets/files/campaign_exports/FOGGS%20Feb%202024%20Update%20%28copy%2001%29__FOGGS%20%28Emailing%20List%2C%20Team%29.html" target="_blank" rel="noopener">February 2024</a>
-        </li>
-        <li>
-          <a href="assets/files/campaign_exports/FOGGS%20Jan%202024%20Update%20%28copy%2001%29__FOGGS%20%28Emailing%20List%2C%20Team%29.html" target="_blank" rel="noopener">January 2024</a>
-        </li>
-        <li>
-          <a href="assets/files/campaign_exports/FOGGS%20Dec%202023%20Update%20%28copy%2001%29__FOGGS.html" target="_blank" rel="noopener">December 2023</a>
-        </li>
-        <li>
-          <a href="assets/files/campaign_exports/FOGGS%20Nov%202023%20Update%20%28copy%2001%29__FOGGS.html" target="_blank" rel="noopener">November 2023</a>
-        </li>
-        <li>
-          <a href="assets/files/campaign_exports/FOGGS%20Sep-Oct%202023%20Update__FOGGS%20%28Emailing%20List%2C%20Team%29.html" target="_blank" rel="noopener">September-October 2023</a>
-        </li>
-        <li>
-          <a href="assets/files/campaign_exports/FOGGS-Update-2023-07.html" target="_blank" rel="noopener">July-August 2023</a>
-        </li>
-        <li>
-          <a href="assets/files/campaign_exports/FOGGS%20June%20Update__FOGGS%20%28Emailing%20List%2C%20Team%29.html" target="_blank" rel="noopener">June 2023</a>
-        </li>
-        <li>
-          <a href="assets/files/campaign_exports/FOGGS%20April-May%20Update__FOGGS%20%28Emailing%20List%2C%20Team%29.html" target="_blank" rel="noopener">April-May 2023</a>
-        </li>
-        <li>
-          <a href="assets/files/campaign_exports/FOGGS%20March%20Update__FOGGS%20%28Emailing%20List%2C%20Team%29.html" target="_blank" rel="noopener">March 2023</a>
-        </li>
-        <li>
-          <a href="assets/files/campaign_exports/FOGGS%20January-February%20Update%20%28copy%2002%29__Former%20UN%20Staff.html" target="_blank" rel="noopener">January-February 2023</a>
-        </li>
-        <li>
-          <a href="assets/files/campaign_exports/FOGGS%20Update%20December%20%28copy%2001%29__FOGGS%20%28Emailing%20List%2C%20Team%29.html" target="_blank" rel="noopener">December 2022</a>
-        </li>
-        <li>
-          <a href="assets/files/campaign_exports/FOGGS%20Update%20September%20-%20October%20%28copy%2001%29__FOGGS%20%28Emailing%20List%2C%20Team%29.html" target="_blank" rel="noopener">September-October 2022</a>
-        </li>
-        <li>
-          <a href="assets/files/campaign_exports/FOGGS%20Update%20July%20-%20August%20%28copy%2001%29__FOGGS%20%28Emailing%20List%2C%20Team%29.html" target="_blank" rel="noopener">July-August 2022</a>
-        </li>
-        <li>
-          <a href="assets/files/campaign_exports/FOGGS-Update-2022-05.html" target="_blank" rel="noopener">May 2022</a>
-        </li>
-        <li>
-          <a href="assets/files/campaign_exports/FOGGS-Update-2022-03.html" target="_blank" rel="noopener">March 2022</a>
-        </li>
-        <li>
-          <a href="assets/files/campaign_exports/FOGGS-Update-2022-01.html" target="_blank" rel="noopener">January 2022</a>
-        </li>
-        <li>
-          <a href="assets/files/campaign_exports/FOGGS-Update-2021-12.html" target="_blank" rel="noopener">December 2021</a>
-        </li>
-        <li>
-          <a href="assets/files/campaign_exports/FOGGS-Update-2021-11.html" target="_blank" rel="noopener">November 2021</a>
-        </li>
-        <li>
-          <a href="assets/files/campaign_exports/FOGGS-Update-2021-10.html" target="_blank" rel="noopener">October 2021</a>
-        </li>
-        <li>
-          <a href="assets/files/campaign_exports/FOGGS-Update-2021-08.html" target="_blank" rel="noopener">August 2021</a>
-        </li>
-        <li>
-          <a href="assets/files/campaign_exports/FOGGS-Update-2021-07.html" target="_blank" rel="noopener">July 2021</a>
-        </li>
-        <li>
-          <a href="assets/files/campaign_exports/FOGGS-Update-2021-06.html" target="_blank" rel="noopener">June 2021</a>
-        </li>
-        <li>
-          <a href="assets/files/campaign_exports/FOGGS-Update-2021-05.html" target="_blank" rel="noopener">May 2021</a>
-        </li>
-        <li>
-          <a href="assets/files/campaign_exports/FOGGS-Update-2021-04.html" target="_blank" rel="noopener">April 2021</a>
-        </li>
-        <li>
-          <a href="assets/files/campaign_exports/FOGGS-Update-2021-03.html" target="_blank" rel="noopener">March 2021</a>
-        </li>
-        <li>
-          <a href="assets/files/campaign_exports/FOGGS-Update-2021-02.html" target="_blank" rel="noopener">February 2021</a>
-        </li>
-        <li>
-          <a href="assets/files/campaign_exports/FOGGS-Update-2021-01.html" target="_blank" rel="noopener">January 2021</a>
-        </li>
-      </ul>
+      <div class="archive-grid" id="newsletter-grid">
+        <!-- Cards will be generated from existing list entries by script for graceful fallback -->
+      </div>
     </section>
 
     <section aria-label="Archive by year">
@@ -782,6 +682,81 @@
   </main>
 
   <div data-include="footer"></div>
+  <script>
+    (function(){
+      const data = [
+        {href: 'assets/files/campaign_exports/FOGGS%20Update%20October%202025%20%28copy%2001%29__FOGGS.html', title: 'October 2025'},
+        {href: 'assets/files/campaign_exports/FOGGS%20Update%20September%202025%20%28copy%2001%29__FOGGS.html', title: 'September 2025'},
+        {href: 'assets/files/campaign_exports/FOGGS-Update-2025-08.html', title: 'August 2025'},
+        {href: 'assets/files/campaign_exports/FOGGS-Update-2025-07.html', title: 'July 2025'},
+        {href: 'assets/files/campaign_exports/FOGGS%20Update%20June%202025__FOGGS%20%28Emailing%20List%2C%20Team%29.html', title: 'June 2025'},
+        {href: 'assets/files/campaign_exports/FOGGS%20May%202025%20Update%20%28copy%2002%29__FOGGS%20%28Emailing%20List%2C%20Team%29.html', title: 'May 2025'},
+        {href: 'assets/files/campaign_exports/FOGGS%20April%202025%20Update%20%28copy%2001%29__FOGGS%20%28Emailing%20List%2C%20Team%29.html', title: 'April 2025'},
+        {href: 'assets/files/campaign_exports/FOGGS%20March%202025%20Update%20%28copy%2001%29__FOGGS.html', title: 'March 2025'},
+        {href: 'assets/files/campaign_exports/FOGGS%20Feb%202025%20Update%20%28copy%2001%29__FOGGS.html', title: 'February 2025'},
+        {href: 'assets/files/campaign_exports/FOGGS%20Jan%202025%20Update%20%28copy%2001%29__FOGGS.html', title: 'January 2025'},
+        {href: 'assets/files/campaign_exports/FOGGS%20Dec%202024%20Update__FOGGS%20%28Emailing%20List%2C%20Team%29.html', title: 'December 2024'},
+        {href: 'assets/files/campaign_exports/FOGGS%20Nov%202024%20Update%20%28copy%2001%29__FOGGS.html', title: 'November 2024'},
+        {href: 'assets/files/campaign_exports/FOGGS%20Oct%202024%20Update__FOGGS%20%28Emailing%20List%2C%20Team%29.html', title: 'October 2024'},
+        {href: 'assets/files/campaign_exports/FOGGS%20Sep%202024%20Update%20%28copy%2001%29__FOGGS%20%28Emailing%20List%2C%20Team%29.html', title: 'September 2024'},
+        {href: 'assets/files/campaign_exports/FOGGS%20July-Aug%202024%20Update%20%28copy%2001%29__FOGGS%20%28Emailing%20List%2C%20Team%29.html', title: 'July-August 2024'},
+        {href: 'assets/files/campaign_exports/FOGGS%20June%202024%20Update__FOGGS%20%28Emailing%20List%2C%20Team%29.html', title: 'June 2024'},
+        {href: 'assets/files/campaign_exports/FOGGS%20May%202024%20Update__FOGGS%20%28Emailing%20List%2C%20Team%29.html', title: 'May 2024'},
+        {href: 'assets/files/campaign_exports/FOGGS%20April%202024%20Update%20%28copy%2002%29__FOGGS%20%28Emailing%20List%2C%20Team%29.html', title: 'April 2024'},
+        {href: 'assets/files/campaign_exports/FOGGS%20March%202024%20Update%20%28copy%2001%29__FOGGS%20%28Emailing%20List%2C%20Team%29.html', title: 'March 2024'},
+        {href: 'assets/files/campaign_exports/FOGGS%20Feb%202024%20Update%20%28copy%2001%29__FOGGS%20%28Emailing%20List%2C%20Team%29.html', title: 'February 2024'},
+        {href: 'assets/files/campaign_exports/FOGGS%20Jan%202024%20Update%20%28copy%2001%29__FOGGS%20%28Emailing%20List%2C%20Team%29.html', title: 'January 2024'},
+        {href: 'assets/files/campaign_exports/FOGGS%20Dec%202023%20Update%20%28copy%2001%29__FOGGS.html', title: 'December 2023'},
+        {href: 'assets/files/campaign_exports/FOGGS%20Nov%202023%20Update%20%28copy%2001%29__FOGGS.html', title: 'November 2023'},
+        {href: 'assets/files/campaign_exports/FOGGS%20Sep-Oct%202023%20Update__FOGGS%20%28Emailing%20List%2C%20Team%29.html', title: 'September-October 2023'},
+        {href: 'assets/files/campaign_exports/FOGGS-Update-2023-07.html', title: 'July-August 2023'},
+        {href: 'assets/files/campaign_exports/FOGGS%20June%20Update__FOGGS%20%28Emailing%20List%2C%20Team%29.html', title: 'June 2023'},
+        {href: 'assets/files/campaign_exports/FOGGS%20April-May%20Update__FOGGS%20%28Emailing%20List%2C%20Team%29.html', title: 'April-May 2023'},
+        {href: 'assets/files/campaign_exports/FOGGS%20March%20Update__FOGGS%20%28Emailing%20List%2C%20Team%29.html', title: 'March 2023'},
+        {href: 'assets/files/campaign_exports/FOGGS%20January-February%20Update%20%28copy%2002%29__Former%20UN%20Staff.html', title: 'January-February 2023'},
+        {href: 'assets/files/campaign_exports/FOGGS%20Update%20December%20%28copy%2001%29__FOGGS%20%28Emailing%20List%2C%20Team%29.html', title: 'December 2022'},
+        {href: 'assets/files/campaign_exports/FOGGS%20Update%20September%20-%20October%20%28copy%2001%29__FOGGS%20%28Emailing%20List%2C%20Team%29.html', title: 'September-October 2022'},
+        {href: 'assets/files/campaign_exports/FOGGS%20Update%20July%20-%20August%20%28copy%2001%29__FOGGS%20%28Emailing%20List%2C%20Team%29.html', title: 'July-August 2022'},
+        {href: 'assets/files/campaign_exports/FOGGS-Update-2022-06.html', title: 'June 2022'},
+        {href: 'assets/files/campaign_exports/FOGGS-Update-2022-05.html', title: 'May 2022'},
+        {href: 'assets/files/campaign_exports/FOGGS-Update-2022-03.html', title: 'March 2022'},
+        {href: 'assets/files/campaign_exports/FOGGS-Update-2022-01.html', title: 'January 2022'},
+        {href: 'assets/files/campaign_exports/FOGGS-Update-2021-12.html', title: 'December 2021'},
+        {href: 'assets/files/campaign_exports/FOGGS-Update-2021-11.html', title: 'November 2021'},
+        {href: 'assets/files/campaign_exports/FOGGS-Update-2021-10.html', title: 'October 2021'},
+        {href: 'assets/files/campaign_exports/FOGGS-Update-2021-05.html', title: 'May 2021'},
+        {href: 'assets/files/campaign_exports/FOGGS-Update-2021-04.html', title: 'April 2021'},
+        {href: 'assets/files/campaign_exports/FOGGS-Update-2021-03.html', title: 'March 2021'},
+        {href: 'assets/files/campaign_exports/FOGGS-Update-2021-02.html', title: 'February 2021'},
+        {href: 'assets/files/campaign_exports/FOGGS-Update-2021-01.html', title: 'January 2021'}
+      ];
+
+      const grid = document.getElementById('newsletter-grid');
+      if(!grid) return;
+
+      data.forEach(item=>{
+        const a = document.createElement('a');
+        a.className = 'archive-card';
+        a.href = item.href;
+        a.target = '_blank';
+        a.rel = 'noopener';
+
+        const thumb = item.href.replace('assets/files/campaign_exports/', 'assets/files/campaign_exports/thumbs/').replace(/\.html$/i, '.png');
+        const img = document.createElement('img');
+        img.src = thumb;
+        img.alt = item.title;
+        img.onerror = function(){ this.style.display='none'; };
+
+        const t = document.createElement('div');
+        t.className = 'title';
+        t.textContent = item.title;
+
+        a.appendChild(img);
+        a.appendChild(t);
+        grid.appendChild(a);
+      });
+    })();
+  </script>
   <script src="assets/js/pages/archive.js"></script>
 </body>
 </html>
