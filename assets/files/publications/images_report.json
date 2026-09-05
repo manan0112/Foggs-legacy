@@ -1,0 +1,1001 @@
+[
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2017/12/cropped-favicon-180x180.png",
+    "filename": "cropped-favicon-180x180.png",
+    "status": 200,
+    "last_modified": "Mon, 18 Dec 2017 12:02:14 GMT",
+    "content_length": "831",
+    "content_type": "image/png",
+    "local_match": null
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2017/12/cropped-favicon-192x192.png",
+    "filename": "cropped-favicon-192x192.png",
+    "status": 200,
+    "last_modified": "Mon, 18 Dec 2017 12:02:14 GMT",
+    "content_length": "835",
+    "content_type": "image/png",
+    "local_match": null
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2017/12/cropped-favicon-270x270.png",
+    "filename": "cropped-favicon-270x270.png",
+    "status": 200,
+    "last_modified": "Mon, 18 Dec 2017 12:02:14 GMT",
+    "content_length": "1013",
+    "content_type": "image/png",
+    "local_match": null
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2017/12/cropped-favicon-32x32.png",
+    "filename": "cropped-favicon-32x32.png",
+    "status": 200,
+    "last_modified": "Mon, 18 Dec 2017 12:02:14 GMT",
+    "content_length": "487",
+    "content_type": "image/png",
+    "local_match": null
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2017/12/footer_logo.png",
+    "filename": "footer_logo.png",
+    "status": 200,
+    "last_modified": "Thu, 21 Dec 2017 13:44:46 GMT",
+    "content_length": "1838",
+    "content_type": "image/png",
+    "local_match": null
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2017/12/logo_white.png",
+    "filename": "logo_white.png",
+    "status": 200,
+    "last_modified": "Mon, 18 Dec 2017 12:52:33 GMT",
+    "content_length": "3963",
+    "content_type": "image/png",
+    "local_match": null
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2018/01/logo_white_400px.png",
+    "filename": "logo_white_400px.png",
+    "status": 200,
+    "last_modified": "Wed, 17 Jan 2018 10:03:15 GMT",
+    "content_length": "5540",
+    "content_type": "image/png",
+    "local_match": null
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2018/01/logo_white_400px.png 401w, https://www.foggs.org/wp-content/uploads/2018/01/logo_white_400px-300x69.png 300w",
+    "filename": "logo_white_400px-300x69.png 300w",
+    "status": null,
+    "last_modified": null,
+    "content_length": null,
+    "content_type": null,
+    "local_match": null
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2018/11/FOGGS_Action-Plan-May-2020_full-cover.png",
+    "filename": "FOGGS_Action-Plan-May-2020_full-cover.png",
+    "status": 200,
+    "last_modified": "Fri, 08 May 2020 11:47:02 GMT",
+    "content_length": "42065",
+    "content_type": "image/png",
+    "local_match": null
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2018/11/FOGGS_Action-Plan-May-2020_full-cover.png 308w, https://www.foggs.org/wp-content/uploads/2018/11/FOGGS_Action-Plan-May-2020_full-cover-213x300.png 213w",
+    "filename": "FOGGS_Action-Plan-May-2020_full-cover-213x300.png 213w",
+    "status": null,
+    "last_modified": null,
+    "content_length": null,
+    "content_type": null,
+    "local_match": null
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2019/01/FOGGS-UN2100-Discussion-Paper27-Jan-2019.pdf",
+    "filename": "FOGGS-UN2100-Discussion-Paper27-Jan-2019.pdf",
+    "status": 200,
+    "last_modified": "Sun, 27 Jan 2019 22:46:36 GMT",
+    "content_length": "681162",
+    "content_type": "application/pdf",
+    "local_match": "assets/files/2019/01/FOGGS-UN2100-Discussion-Paper27-Jan-2019.pdf"
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2020/04/FOGGS-Discussion-Paper-COVER-the-UN-and-COVID-19-April-2020Final-COVER-e1592434638236.png",
+    "filename": "FOGGS-Discussion-Paper-COVER-the-UN-and-COVID-19-April-2020Final-COVER-e1592434638236.png",
+    "status": 200,
+    "last_modified": "Wed, 17 Jun 2020 22:57:18 GMT",
+    "content_length": "31143",
+    "content_type": "image/png",
+    "local_match": "assets/files/publications/FOGGS-Discussion-Paper-COVER-the-UN-and-COVID-19-April-2020Final-COVER-e1592434638236.png"
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2020/04/FOGGS-Discussion-Paper-UN-and-COVID-19-16-April-2020Final.pdf",
+    "filename": "FOGGS-Discussion-Paper-UN-and-COVID-19-16-April-2020Final.pdf",
+    "status": 200,
+    "last_modified": "Mon, 20 Apr 2020 16:59:13 GMT",
+    "content_length": "317817",
+    "content_type": "application/pdf",
+    "local_match": "assets/files/2020/04/FOGGS-Discussion-Paper-UN-and-COVID-19-16-April-2020Final.pdf"
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2020/05/FOGGS-Action-Plan_-UN-and-the-world-post-COVID-19_7-May-2020-Final.pdf",
+    "filename": "FOGGS-Action-Plan_-UN-and-the-world-post-COVID-19_7-May-2020-Final.pdf",
+    "status": 200,
+    "last_modified": "Fri, 08 May 2020 09:41:59 GMT",
+    "content_length": "418574",
+    "content_type": "application/pdf",
+    "local_match": "assets/files/2020/05/FOGGS-Action-Plan_-UN-and-the-world-post-COVID-19_7-May-2020-Final.pdf"
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2020/06/FOGGS-Insights-Paper_-Operating-the-UN-System-Under-Crisis-Conditions-Final-17-June-2020bb.pdf",
+    "filename": "FOGGS-Insights-Paper_-Operating-the-UN-System-Under-Crisis-Conditions-Final-17-June-2020bb.pdf",
+    "status": 200,
+    "last_modified": "Tue, 23 Jun 2020 13:30:03 GMT",
+    "content_length": "196931",
+    "content_type": "application/pdf",
+    "local_match": "assets/files/2020/06/FOGGS-Insights-Paper_-Operating-the-UN-System-Under-Crisis-Conditions-Final-17-June-2020bb.pdf"
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2020/06/FOGGS-UN2100-Initiative-Background-Paper_COVER-January-2019.png",
+    "filename": "FOGGS-UN2100-Initiative-Background-Paper_COVER-January-2019.png",
+    "status": 200,
+    "last_modified": "Wed, 17 Jun 2020 23:32:12 GMT",
+    "content_length": "24427",
+    "content_type": "image/png",
+    "local_match": null
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2020/06/FOGGS-UN2100-Initiative-Background-Paper_COVER-January-2019.png 310w, https://www.foggs.org/wp-content/uploads/2020/06/FOGGS-UN2100-Initiative-Background-Paper_COVER-January-2019-212x300.png 212w",
+    "filename": "FOGGS-UN2100-Initiative-Background-Paper_COVER-January-2019-212x300.png 212w",
+    "status": null,
+    "last_modified": null,
+    "content_length": null,
+    "content_type": null,
+    "local_match": null
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2020/08/FOGGS-UN75plus25_Proposal_I-New-Narrative_zero-draftfinal29-Aug-2020-1.pdf",
+    "filename": "FOGGS-UN75plus25_Proposal_I-New-Narrative_zero-draftfinal29-Aug-2020-1.pdf",
+    "status": 200,
+    "last_modified": "Sat, 29 Aug 2020 18:13:44 GMT",
+    "content_length": "292598",
+    "content_type": "application/pdf",
+    "local_match": "assets/files/2020/08/FOGGS-UN75plus25_Proposal_I-New-Narrative_zero-draftfinal29-Aug-2020-1.pdf"
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2020/08/FOGGS-UN75plus25_Proposal_II-Global-Resilience-Council_zero-draftfinal29-Aug-2020-1.pdf",
+    "filename": "FOGGS-UN75plus25_Proposal_II-Global-Resilience-Council_zero-draftfinal29-Aug-2020-1.pdf",
+    "status": 200,
+    "last_modified": "Sat, 29 Aug 2020 18:11:50 GMT",
+    "content_length": "379836",
+    "content_type": "application/pdf",
+    "local_match": "assets/files/2020/08/FOGGS-UN75plus25_Proposal_II-Global-Resilience-Council_zero-draftfinal29-Aug-2020-1.pdf"
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2020/10/COVIDEA-Primer_FINAL_October2020-2.pdf",
+    "filename": "COVIDEA-Primer_FINAL_October2020-2.pdf",
+    "status": 200,
+    "last_modified": "Mon, 12 Oct 2020 21:48:09 GMT",
+    "content_length": "774227",
+    "content_type": "application/pdf",
+    "local_match": null
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2021/03/FOGGS_GRC-Brainstorming-Note-Final31-March-2021.pdf",
+    "filename": "FOGGS_GRC-Brainstorming-Note-Final31-March-2021.pdf",
+    "status": 200,
+    "last_modified": "Wed, 31 Mar 2021 23:11:40 GMT",
+    "content_length": "534801",
+    "content_type": "application/pdf",
+    "local_match": "assets/files/2021/03/FOGGS_GRC-Brainstorming-Note-Final31-March-2021.pdf"
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2021/03/India-SDG-implementation-QMULprojectFinalFinalReport31Mar2021.pdf",
+    "filename": "India-SDG-implementation-QMULprojectFinalFinalReport31Mar2021.pdf",
+    "status": 200,
+    "last_modified": "Wed, 31 Mar 2021 22:53:56 GMT",
+    "content_length": "1012540",
+    "content_type": "application/pdf",
+    "local_match": "assets/files/2021/03/India-SDG-implementation-QMULprojectFinalFinalReport31Mar2021.pdf"
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2021/06/FOGGS_GRC-Revisited-Text-FINAL_23June2021.pdf",
+    "filename": "FOGGS_GRC-Revisited-Text-FINAL_23June2021.pdf",
+    "status": 200,
+    "last_modified": "Wed, 23 Jun 2021 14:06:08 GMT",
+    "content_length": "320573",
+    "content_type": "application/pdf",
+    "local_match": "assets/files/2021/06/FOGGS_GRC-Revisited-Text-FINAL_23June2021.pdf"
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2021/10/FOGGS-UN2100-Initiative-Background-Paper-on-OCA-report-October-2021.pdf",
+    "filename": "FOGGS-UN2100-Initiative-Background-Paper-on-OCA-report-October-2021.pdf",
+    "status": 200,
+    "last_modified": "Sun, 24 Oct 2021 10:35:53 GMT",
+    "content_length": "354176",
+    "content_type": "application/pdf",
+    "local_match": "assets/files/2021/10/FOGGS-UN2100-Initiative-Background-Paper-on-OCA-report-October-2021.pdf"
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2021/10/M4CE-Background-Paper-Final.pdf",
+    "filename": "M4CE-Background-Paper-Final.pdf",
+    "status": 200,
+    "last_modified": "Mon, 04 Oct 2021 14:11:35 GMT",
+    "content_length": "702622",
+    "content_type": "application/pdf",
+    "local_match": "assets/files/2021/10/M4CE-Background-Paper-Final.pdf"
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2021/10/M4CE-Project_Background-Paper_Cover-September-2021.jpg",
+    "filename": "M4CE-Project_Background-Paper_Cover-September-2021.jpg",
+    "status": 200,
+    "last_modified": "Mon, 04 Oct 2021 14:17:57 GMT",
+    "content_length": "20968",
+    "content_type": "image/jpeg",
+    "local_match": "assets/files/publications/M4CE-Project_Background-Paper_Cover-September-2021.jpg"
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2021/10/M4CE-Project_Background-Paper_Cover-September-2021.jpg 281w, https://www.foggs.org/wp-content/uploads/2021/10/M4CE-Project_Background-Paper_Cover-September-2021-211x300.jpg 211w, https://www.foggs.org/wp-content/uploads/2021/10/elementor/thumbs/M4CE-Project_Background-Paper_Cover-September-2021-150x150.jpg 280w",
+    "filename": "M4CE-Project_Background-Paper_Cover-September-2021-150x150.jpg 280w",
+    "status": null,
+    "last_modified": null,
+    "content_length": null,
+    "content_type": null,
+    "local_match": null
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2021/12/FOGGS-UN2100-OCA-Critical-Review_Discussion-Paper-Final_30Nov2021.pdf",
+    "filename": "FOGGS-UN2100-OCA-Critical-Review_Discussion-Paper-Final_30Nov2021.pdf",
+    "status": 200,
+    "last_modified": "Thu, 02 Dec 2021 10:22:55 GMT",
+    "content_length": "418921",
+    "content_type": "application/pdf",
+    "local_match": "assets/files/2021/12/FOGGS-UN2100-OCA-Critical-Review_Discussion-Paper-Final_30Nov2021.pdf"
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2022/04/GRC-Climate-Paper-Complete.pdf",
+    "filename": "GRC-Climate-Paper-Complete.pdf",
+    "status": 200,
+    "last_modified": "Wed, 20 Apr 2022 16:54:19 GMT",
+    "content_length": "334331",
+    "content_type": "application/pdf",
+    "local_match": "assets/files/2022/04/GRC-Climate-Paper-Complete.pdf"
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2022/08/FOGGS-proposal-submitted-to-UN-HLAB-on-a-Global-Resilience-Council-12-August-2022.pdf",
+    "filename": "FOGGS-proposal-submitted-to-UN-HLAB-on-a-Global-Resilience-Council-12-August-2022.pdf",
+    "status": 200,
+    "last_modified": "Sun, 28 Aug 2022 14:19:46 GMT",
+    "content_length": "257935",
+    "content_type": "application/pdf",
+    "local_match": "assets/files/2022/08/FOGGS-proposal-submitted-to-UN-HLAB-on-a-Global-Resilience-Council-12-August-2022.pdf"
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2022/10/GRC-Pandemic-Discussion-Paper-Final-June-2022.pdf",
+    "filename": "GRC-Pandemic-Discussion-Paper-Final-June-2022.pdf",
+    "status": 200,
+    "last_modified": "Tue, 18 Oct 2022 09:36:58 GMT",
+    "content_length": "428909",
+    "content_type": "application/pdf",
+    "local_match": "assets/files/2022/10/GRC-Pandemic-Discussion-Paper-Final-June-2022.pdf"
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2023/02/PRG-contribution-to-UNSG-New-Agenda-for-Peace-Final15Jan2023.pdf",
+    "filename": "PRG-contribution-to-UNSG-New-Agenda-for-Peace-Final15Jan2023.pdf",
+    "status": 200,
+    "last_modified": "Fri, 17 Feb 2023 08:57:47 GMT",
+    "content_length": "296339",
+    "content_type": "application/pdf",
+    "local_match": "assets/files/2023/04/PRG-contribution-to-UNSG-New-Agenda-for-Peace-Final15Jan2023.pdf"
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2023/08/FOGGS-Paper-20231-Reflection-Paper.pdf",
+    "filename": "FOGGS-Paper-20231-Reflection-Paper.pdf",
+    "status": 200,
+    "last_modified": "Wed, 16 Aug 2023 15:53:33 GMT",
+    "content_length": "405397",
+    "content_type": "application/pdf",
+    "local_match": "assets/files/2023/08/FOGGS-Paper-20231-Reflection-Paper.pdf"
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.05.02-PM-728x1024.png",
+    "filename": "Screenshot-2023-08-16-at-9.05.02-PM-728x1024.png",
+    "status": 200,
+    "last_modified": "Wed, 16 Aug 2023 15:35:05 GMT",
+    "content_length": "289743",
+    "content_type": "image/png",
+    "local_match": null
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.05.02-PM-728x1024.png 728w, https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.05.02-PM-213x300.png 213w, https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.05.02-PM-768x1080.png 768w, https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.05.02-PM-350x492.png 350w, https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.05.02-PM.png 902w",
+    "filename": "Screenshot-2023-08-16-at-9.05.02-PM.png 902w",
+    "status": null,
+    "last_modified": null,
+    "content_length": null,
+    "content_type": null,
+    "local_match": null
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.05.57-PM-710x1024.png",
+    "filename": "Screenshot-2023-08-16-at-9.05.57-PM-710x1024.png",
+    "status": 200,
+    "last_modified": "Wed, 16 Aug 2023 15:36:03 GMT",
+    "content_length": "269695",
+    "content_type": "image/png",
+    "local_match": null
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.05.57-PM-710x1024.png 710w, https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.05.57-PM-208x300.png 208w, https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.05.57-PM-768x1107.png 768w, https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.05.57-PM-350x505.png 350w, https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.05.57-PM.png 878w",
+    "filename": "Screenshot-2023-08-16-at-9.05.57-PM.png 878w",
+    "status": null,
+    "last_modified": null,
+    "content_length": null,
+    "content_type": null,
+    "local_match": null
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.06.25-PM-709x1024.png",
+    "filename": "Screenshot-2023-08-16-at-9.06.25-PM-709x1024.png",
+    "status": 200,
+    "last_modified": "Wed, 16 Aug 2023 15:36:37 GMT",
+    "content_length": "212268",
+    "content_type": "image/png",
+    "local_match": null
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.06.25-PM-709x1024.png 709w, https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.06.25-PM-208x300.png 208w, https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.06.25-PM-768x1110.png 768w, https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.06.25-PM-350x506.png 350w, https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.06.25-PM.png 858w",
+    "filename": "Screenshot-2023-08-16-at-9.06.25-PM.png 858w",
+    "status": null,
+    "last_modified": null,
+    "content_length": null,
+    "content_type": null,
+    "local_match": null
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.07.09-PM-714x1024.png",
+    "filename": "Screenshot-2023-08-16-at-9.07.09-PM-714x1024.png",
+    "status": 200,
+    "last_modified": "Wed, 16 Aug 2023 15:37:12 GMT",
+    "content_length": "233908",
+    "content_type": "image/png",
+    "local_match": null
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.07.09-PM-714x1024.png 714w, https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.07.09-PM-209x300.png 209w, https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.07.09-PM-768x1102.png 768w, https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.07.09-PM-350x502.png 350w, https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.07.09-PM.png 870w",
+    "filename": "Screenshot-2023-08-16-at-9.07.09-PM.png 870w",
+    "status": null,
+    "last_modified": null,
+    "content_length": null,
+    "content_type": null,
+    "local_match": null
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.08.21-PM-708x1024.png",
+    "filename": "Screenshot-2023-08-16-at-9.08.21-PM-708x1024.png",
+    "status": 200,
+    "last_modified": "Wed, 16 Aug 2023 15:38:24 GMT",
+    "content_length": "274878",
+    "content_type": "image/png",
+    "local_match": null
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.08.21-PM-708x1024.png 708w, https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.08.21-PM-207x300.png 207w, https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.08.21-PM-768x1111.png 768w, https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.08.21-PM-350x506.png 350w, https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.08.21-PM.png 874w",
+    "filename": "Screenshot-2023-08-16-at-9.08.21-PM.png 874w",
+    "status": null,
+    "last_modified": null,
+    "content_length": null,
+    "content_type": null,
+    "local_match": null
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.08.54-PM-788x1024.png",
+    "filename": "Screenshot-2023-08-16-at-9.08.54-PM-788x1024.png",
+    "status": 200,
+    "last_modified": "Wed, 16 Aug 2023 15:39:00 GMT",
+    "content_length": "216980",
+    "content_type": "image/png",
+    "local_match": null
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.08.54-PM-788x1024.png 788w, https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.08.54-PM-231x300.png 231w, https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.08.54-PM-768x998.png 768w, https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.08.54-PM-350x455.png 350w, https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.08.54-PM.png 922w",
+    "filename": "Screenshot-2023-08-16-at-9.08.54-PM.png 922w",
+    "status": null,
+    "last_modified": null,
+    "content_length": null,
+    "content_type": null,
+    "local_match": null
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.10.09-PM-769x1024.png",
+    "filename": "Screenshot-2023-08-16-at-9.10.09-PM-769x1024.png",
+    "status": 200,
+    "last_modified": "Wed, 16 Aug 2023 15:40:17 GMT",
+    "content_length": "253135",
+    "content_type": "image/png",
+    "local_match": null
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.10.09-PM-769x1024.png 769w, https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.10.09-PM-225x300.png 225w, https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.10.09-PM-768x1023.png 768w, https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.10.09-PM-350x466.png 350w, https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.10.09-PM.png 940w",
+    "filename": "Screenshot-2023-08-16-at-9.10.09-PM.png 940w",
+    "status": null,
+    "last_modified": null,
+    "content_length": null,
+    "content_type": null,
+    "local_match": null
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.10.49-PM-711x1024.png",
+    "filename": "Screenshot-2023-08-16-at-9.10.49-PM-711x1024.png",
+    "status": 200,
+    "last_modified": "Wed, 16 Aug 2023 15:40:56 GMT",
+    "content_length": "234194",
+    "content_type": "image/png",
+    "local_match": null
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.10.49-PM-711x1024.png 711w, https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.10.49-PM-208x300.png 208w, https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.10.49-PM-768x1106.png 768w, https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.10.49-PM-350x504.png 350w, https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.10.49-PM.png 860w",
+    "filename": "Screenshot-2023-08-16-at-9.10.49-PM.png 860w",
+    "status": null,
+    "last_modified": null,
+    "content_length": null,
+    "content_type": null,
+    "local_match": null
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.11.16-PM-717x1024.png",
+    "filename": "Screenshot-2023-08-16-at-9.11.16-PM-717x1024.png",
+    "status": 200,
+    "last_modified": "Wed, 16 Aug 2023 15:41:23 GMT",
+    "content_length": "218584",
+    "content_type": "image/png",
+    "local_match": null
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.11.16-PM-717x1024.png 717w, https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.11.16-PM-210x300.png 210w, https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.11.16-PM-768x1096.png 768w, https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.11.16-PM-350x500.png 350w, https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.11.16-PM.png 866w",
+    "filename": "Screenshot-2023-08-16-at-9.11.16-PM.png 866w",
+    "status": null,
+    "last_modified": null,
+    "content_length": null,
+    "content_type": null,
+    "local_match": null
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.13.44-PM.png",
+    "filename": "Screenshot-2023-08-16-at-9.13.44-PM.png",
+    "status": 200,
+    "last_modified": "Wed, 16 Aug 2023 15:43:55 GMT",
+    "content_length": "103048",
+    "content_type": "image/png",
+    "local_match": null
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.13.44-PM.png 612w, https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.13.44-PM-215x300.png 215w, https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.13.44-PM-350x488.png 350w",
+    "filename": "Screenshot-2023-08-16-at-9.13.44-PM-350x488.png 350w",
+    "status": null,
+    "last_modified": null,
+    "content_length": null,
+    "content_type": null,
+    "local_match": null
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.15.06-PM-713x1024.png",
+    "filename": "Screenshot-2023-08-16-at-9.15.06-PM-713x1024.png",
+    "status": 200,
+    "last_modified": "Wed, 16 Aug 2023 15:45:14 GMT",
+    "content_length": "177468",
+    "content_type": "image/png",
+    "local_match": null
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.15.06-PM-713x1024.png 713w, https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.15.06-PM-209x300.png 209w, https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.15.06-PM-768x1104.png 768w, https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.15.06-PM-350x503.png 350w, https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.15.06-PM.png 856w",
+    "filename": "Screenshot-2023-08-16-at-9.15.06-PM.png 856w",
+    "status": null,
+    "last_modified": null,
+    "content_length": null,
+    "content_type": null,
+    "local_match": null
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.24.03-PM-208x300.png",
+    "filename": "Screenshot-2023-08-16-at-9.24.03-PM-208x300.png",
+    "status": 200,
+    "last_modified": "Wed, 16 Aug 2023 15:54:11 GMT",
+    "content_length": "27077",
+    "content_type": "image/png",
+    "local_match": "assets/files/publications/Screenshot-2023-08-16-at-9.24.03-PM-208x300.png"
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.24.03-PM-208x300.png 208w, https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.24.03-PM-710x1024.png 710w, https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.24.03-PM-768x1107.png 768w, https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.24.03-PM-350x505.png 350w, https://www.foggs.org/wp-content/uploads/2023/08/Screenshot-2023-08-16-at-9.24.03-PM.png 874w",
+    "filename": "Screenshot-2023-08-16-at-9.24.03-PM.png 874w",
+    "status": null,
+    "last_modified": null,
+    "content_length": null,
+    "content_type": null,
+    "local_match": "assets/files/publications/Screenshot-2023-08-16-at-9.24.03-PM-208x300.png"
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2023/09/FOGGS-and-HumanizaCom_Global-South-Perspectives-Report-September-2023-COVER-211x300.png",
+    "filename": "FOGGS-and-HumanizaCom_Global-South-Perspectives-Report-September-2023-COVER-211x300.png",
+    "status": 200,
+    "last_modified": "Wed, 13 Sep 2023 17:14:10 GMT",
+    "content_length": "51100",
+    "content_type": "image/png",
+    "local_match": "assets/files/publications/FOGGS-and-HumanizaCom_Global-South-Perspectives-Report-September-2023-COVER-211x300.png"
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2023/09/FOGGS-and-HumanizaCom_Global-South-Perspectives-Report-September-2023-COVER-211x300.png 211w, https://www.foggs.org/wp-content/uploads/2023/09/FOGGS-and-HumanizaCom_Global-South-Perspectives-Report-September-2023-COVER-350x497.png 350w, https://www.foggs.org/wp-content/uploads/2023/09/elementor/thumbs/FOGGS-and-HumanizaCom_Global-South-Perspectives-Report-September-2023-COVER-qcczqduxv5dzrfe8x8bql674mtad5oe9jg1hbgwg4g.png 280w, https://www.foggs.org/wp-content/uploads/2023/09/FOGGS-and-HumanizaCom_Global-South-Perspectives-Report-September-2023-COVER.png 523w",
+    "filename": "FOGGS-and-HumanizaCom_Global-South-Perspectives-Report-September-2023-COVER.png 523w",
+    "status": null,
+    "last_modified": null,
+    "content_length": null,
+    "content_type": null,
+    "local_match": "assets/files/publications/FOGGS-and-HumanizaCom_Global-South-Perspectives-Report-September-2023-COVER-211x300.png"
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2023/09/FOGGS-and-HumanizaCom_Global-South-Perspectives-Report_September-2023.pdf",
+    "filename": "FOGGS-and-HumanizaCom_Global-South-Perspectives-Report_September-2023.pdf",
+    "status": 200,
+    "last_modified": "Thu, 14 Sep 2023 04:59:49 GMT",
+    "content_length": "1959490",
+    "content_type": "application/pdf",
+    "local_match": "assets/files/2023/09/FOGGS-and-HumanizaCom_Global-South-Perspectives-Report_September-2023.png"
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2023/09/PRG-Booklet-cover-Sep2023-213x300.png",
+    "filename": "PRG-Booklet-cover-Sep2023-213x300.png",
+    "status": 200,
+    "last_modified": "Mon, 11 Sep 2023 09:28:47 GMT",
+    "content_length": "99365",
+    "content_type": "image/png",
+    "local_match": "assets/files/publications/PRG-Booklet-cover-Sep2023-213x300.png"
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2023/09/PRG-Booklet-cover-Sep2023-213x300.png 213w, https://www.foggs.org/wp-content/uploads/2023/09/PRG-Booklet-cover-Sep2023-350x494.png 350w, https://www.foggs.org/wp-content/uploads/2023/09/PRG-Booklet-cover-Sep2023.png 565w",
+    "filename": "PRG-Booklet-cover-Sep2023.png 565w",
+    "status": null,
+    "last_modified": null,
+    "content_length": null,
+    "content_type": null,
+    "local_match": "assets/files/publications/PRG-Booklet-cover-Sep2023-213x300.png"
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2023/09/PRG-Booklet-on-An-Enhanced-Role-for-the-UN-in-Peace-and-Human-Security-Final10Sept2023_FOGGS-Papers-2023.pdf",
+    "filename": "PRG-Booklet-on-An-Enhanced-Role-for-the-UN-in-Peace-and-Human-Security-Final10Sept2023_FOGGS-Papers-2023.pdf",
+    "status": 200,
+    "last_modified": "Mon, 11 Sep 2023 10:05:41 GMT",
+    "content_length": "13175646",
+    "content_type": "application/pdf",
+    "local_match": "assets/files/2023/09/PRG-Booklet-on-An-Enhanced-Role-for-the-UN-in-Peace-and-Human-Security-Final10Sept2023_FOGGS-Papers-2023.pdf"
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2024/01/Screenshot-2024-01-24-at-8.22.06-PM-243x300.png",
+    "filename": "Screenshot-2024-01-24-at-8.22.06-PM-243x300.png",
+    "status": 200,
+    "last_modified": "Wed, 24 Jan 2024 14:52:41 GMT",
+    "content_length": "26090",
+    "content_type": "image/png",
+    "local_match": null
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2024/01/Screenshot-2024-01-24-at-8.22.06-PM-243x300.png 243w, https://www.foggs.org/wp-content/uploads/2024/01/Screenshot-2024-01-24-at-8.22.06-PM-350x431.png 350w, https://www.foggs.org/wp-content/uploads/2024/01/Screenshot-2024-01-24-at-8.22.06-PM.png 615w",
+    "filename": "Screenshot-2024-01-24-at-8.22.06-PM.png 615w",
+    "status": null,
+    "last_modified": null,
+    "content_length": null,
+    "content_type": null,
+    "local_match": null
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2024/02/Screenshot-2024-02-12-at-10.36.57-AM.png",
+    "filename": "Screenshot-2024-02-12-at-10.36.57-AM.png",
+    "status": 200,
+    "last_modified": "Mon, 12 Feb 2024 05:07:11 GMT",
+    "content_length": "162456",
+    "content_type": "image/png",
+    "local_match": null
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2024/02/Screenshot-2024-02-12-at-10.36.57-AM.png 594w, https://www.foggs.org/wp-content/uploads/2024/02/Screenshot-2024-02-12-at-10.36.57-AM-220x300.png 220w, https://www.foggs.org/wp-content/uploads/2024/02/Screenshot-2024-02-12-at-10.36.57-AM-350x477.png 350w",
+    "filename": "Screenshot-2024-02-12-at-10.36.57-AM-350x477.png 350w",
+    "status": null,
+    "last_modified": null,
+    "content_length": null,
+    "content_type": null,
+    "local_match": null
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2024/04/FOGGS_Paper_RunningOutofDiplomats_09April2024.pdf",
+    "filename": "FOGGS_Paper_RunningOutofDiplomats_09April2024.pdf",
+    "status": 200,
+    "last_modified": "Wed, 10 Apr 2024 20:08:08 GMT",
+    "content_length": "1081792",
+    "content_type": "application/pdf",
+    "local_match": "assets/files/2024/04/FOGGS_Paper_RunningOutofDiplomats_09April2024.pdf"
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2024/04/Screenshot-2024-04-14-at-11.27.59-PM-218x300.png",
+    "filename": "Screenshot-2024-04-14-at-11.27.59-PM-218x300.png",
+    "status": 200,
+    "last_modified": "Mon, 15 Apr 2024 04:28:05 GMT",
+    "content_length": "39756",
+    "content_type": "image/png",
+    "local_match": "assets/files/publications/Screenshot-2024-04-14-at-11.27.59-PM-218x300.png"
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2024/04/Screenshot-2024-04-14-at-11.27.59-PM-218x300.png 218w, https://www.foggs.org/wp-content/uploads/2024/04/Screenshot-2024-04-14-at-11.27.59-PM-745x1024.png 745w, https://www.foggs.org/wp-content/uploads/2024/04/Screenshot-2024-04-14-at-11.27.59-PM-768x1055.png 768w, https://www.foggs.org/wp-content/uploads/2024/04/Screenshot-2024-04-14-at-11.27.59-PM-1118x1536.png 1118w, https://www.foggs.org/wp-content/uploads/2024/04/Screenshot-2024-04-14-at-11.27.59-PM-350x481.png 350w, https://www.foggs.org/wp-content/uploads/2024/04/Screenshot-2024-04-14-at-11.27.59-PM.png 1182w",
+    "filename": "Screenshot-2024-04-14-at-11.27.59-PM.png 1182w",
+    "status": null,
+    "last_modified": null,
+    "content_length": null,
+    "content_type": null,
+    "local_match": "assets/files/publications/Screenshot-2024-04-14-at-11.27.59-PM-218x300.png"
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2024/05/FOGGSPaper_RussiaUkraineWarandUNCharter_May2024.pdf",
+    "filename": "FOGGSPaper_RussiaUkraineWarandUNCharter_May2024.pdf",
+    "status": 200,
+    "last_modified": "Fri, 17 May 2024 02:33:51 GMT",
+    "content_length": "2187242",
+    "content_type": "application/pdf",
+    "local_match": "assets/files/2024/05/FOGGSPaper_RussiaUkraineWarandUNCharter_May2024.pdf"
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2024/05/Screenshot-2024-05-19-at-10.27.38-PM-214x300.png",
+    "filename": "Screenshot-2024-05-19-at-10.27.38-PM-214x300.png",
+    "status": 200,
+    "last_modified": "Sun, 19 May 2024 16:57:55 GMT",
+    "content_length": "54329",
+    "content_type": "image/png",
+    "local_match": "assets/files/publications/Screenshot-2024-05-19-at-10.27.38-PM-214x300.png"
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2024/05/Screenshot-2024-05-19-at-10.27.38-PM-214x300.png 214w, https://www.foggs.org/wp-content/uploads/2024/05/Screenshot-2024-05-19-at-10.27.38-PM-731x1024.png 731w, https://www.foggs.org/wp-content/uploads/2024/05/Screenshot-2024-05-19-at-10.27.38-PM-768x1076.png 768w, https://www.foggs.org/wp-content/uploads/2024/05/Screenshot-2024-05-19-at-10.27.38-PM-350x490.png 350w, https://www.foggs.org/wp-content/uploads/2024/05/Screenshot-2024-05-19-at-10.27.38-PM.png 992w",
+    "filename": "Screenshot-2024-05-19-at-10.27.38-PM.png 992w",
+    "status": null,
+    "last_modified": null,
+    "content_length": null,
+    "content_type": null,
+    "local_match": "assets/files/publications/Screenshot-2024-05-19-at-10.27.38-PM-214x300.png"
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2024/08/GRC-concept-revisited-August-2024-cover-image-261x300.png",
+    "filename": "GRC-concept-revisited-August-2024-cover-image-261x300.png",
+    "status": 200,
+    "last_modified": "Mon, 26 Aug 2024 14:38:34 GMT",
+    "content_length": "87745",
+    "content_type": "image/png",
+    "local_match": null
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2024/08/GRC-concept-revisited-August-2024-cover-image-261x300.png 261w, https://www.foggs.org/wp-content/uploads/2024/08/GRC-concept-revisited-August-2024-cover-image-768x882.png 768w, https://www.foggs.org/wp-content/uploads/2024/08/GRC-concept-revisited-August-2024-cover-image-350x402.png 350w, https://www.foggs.org/wp-content/uploads/2024/08/GRC-concept-revisited-August-2024-cover-image.png 805w",
+    "filename": "GRC-concept-revisited-August-2024-cover-image.png 805w",
+    "status": null,
+    "last_modified": null,
+    "content_length": null,
+    "content_type": null,
+    "local_match": null
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2024/09/GRC-concept-FOGGSIGDISI_16Aug2024.pdf",
+    "filename": "GRC-concept-FOGGSIGDISI_16Aug2024.pdf",
+    "status": 200,
+    "last_modified": "Wed, 11 Sep 2024 12:44:51 GMT",
+    "content_length": "260357",
+    "content_type": "application/pdf",
+    "local_match": "assets/files/2024/09/GRC-concept-FOGGSIGDISI_16Aug2024.pdf"
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2024/09/GarySlutkin_ViolenceasaPandemic_FOGGSPaper_Aug2024.pdf",
+    "filename": "GarySlutkin_ViolenceasaPandemic_FOGGSPaper_Aug2024.pdf",
+    "status": 200,
+    "last_modified": "Wed, 11 Sep 2024 12:25:18 GMT",
+    "content_length": "2819386",
+    "content_type": "application/pdf",
+    "local_match": "assets/files/2024/09/GarySlutkin_ViolenceasaPandemic_FOGGSPaper_Aug2024.pdf"
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2024/09/Screenshot-2024-09-04-at-1.03.42-PM-209x300.png",
+    "filename": "Screenshot-2024-09-04-at-1.03.42-PM-209x300.png",
+    "status": 200,
+    "last_modified": "Wed, 04 Sep 2024 07:34:28 GMT",
+    "content_length": "58624",
+    "content_type": "image/png",
+    "local_match": "assets/files/publications/Screenshot-2024-09-04-at-1.03.42-PM-209x300.png"
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2024/09/Screenshot-2024-09-04-at-1.03.42-PM-209x300.png 209w, https://www.foggs.org/wp-content/uploads/2024/09/Screenshot-2024-09-04-at-1.03.42-PM-350x503.png 350w, https://www.foggs.org/wp-content/uploads/2024/09/Screenshot-2024-09-04-at-1.03.42-PM.png 472w",
+    "filename": "Screenshot-2024-09-04-at-1.03.42-PM.png 472w",
+    "status": null,
+    "last_modified": null,
+    "content_length": null,
+    "content_type": null,
+    "local_match": "assets/files/publications/Screenshot-2024-09-04-at-1.03.42-PM-209x300.png"
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2024/09/Screenshot-2024-09-11-at-5.57.20-PM-213x300.png",
+    "filename": "Screenshot-2024-09-11-at-5.57.20-PM-213x300.png",
+    "status": 200,
+    "last_modified": "Wed, 11 Sep 2024 12:27:36 GMT",
+    "content_length": "43078",
+    "content_type": "image/png",
+    "local_match": "assets/files/publications/Screenshot-2024-09-11-at-5.57.20-PM-213x300.png"
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2024/09/Screenshot-2024-09-11-at-5.57.20-PM-213x300.png 213w, https://www.foggs.org/wp-content/uploads/2024/09/Screenshot-2024-09-11-at-5.57.20-PM-350x492.png 350w, https://www.foggs.org/wp-content/uploads/2024/09/Screenshot-2024-09-11-at-5.57.20-PM.png 393w",
+    "filename": "Screenshot-2024-09-11-at-5.57.20-PM.png 393w",
+    "status": null,
+    "last_modified": null,
+    "content_length": null,
+    "content_type": null,
+    "local_match": "assets/files/publications/Screenshot-2024-09-11-at-5.57.20-PM-213x300.png"
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2024/09/SudhaReddy_WeaponizationofFood_FOGGSPaper_Sept2024.pdf",
+    "filename": "SudhaReddy_WeaponizationofFood_FOGGSPaper_Sept2024.pdf",
+    "status": 200,
+    "last_modified": "Wed, 04 Sep 2024 07:26:46 GMT",
+    "content_length": "1811926",
+    "content_type": "application/pdf",
+    "local_match": "assets/files/2024/09/SudhaReddy_WeaponizationofFood_FOGGSPaper_Sept2024.pdf"
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2024/11/FrancisMODonnell_Resolving_the_Israel_Palestine_Conundrum_FOGGS_Paper_November_2024.pdf",
+    "filename": "FrancisMODonnell_Resolving_the_Israel_Palestine_Conundrum_FOGGS_Paper_November_2024.pdf",
+    "status": 200,
+    "last_modified": "Wed, 13 Nov 2024 13:46:51 GMT",
+    "content_length": "1995703",
+    "content_type": "application/pdf",
+    "local_match": "assets/files/2024/11/FrancisMODonnell_Resolving_the_Israel_Palestine_Conundrum_FOGGS_Paper_November_2024.pdf"
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2024/11/Resolving-the-Israel-Palestine-212x300.jpg",
+    "filename": "Resolving-the-Israel-Palestine-212x300.jpg",
+    "status": 200,
+    "last_modified": "Wed, 13 Nov 2024 13:31:38 GMT",
+    "content_length": "18074",
+    "content_type": "image/jpeg",
+    "local_match": "assets/files/publications/Resolving-the-Israel-Palestine-212x300.jpg"
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2024/11/Resolving-the-Israel-Palestine-212x300.jpg 212w, https://www.foggs.org/wp-content/uploads/2024/11/Resolving-the-Israel-Palestine-724x1024.jpg 724w, https://www.foggs.org/wp-content/uploads/2024/11/Resolving-the-Israel-Palestine-768x1086.jpg 768w, https://www.foggs.org/wp-content/uploads/2024/11/Resolving-the-Israel-Palestine-1086x1536.jpg 1086w, https://www.foggs.org/wp-content/uploads/2024/11/Resolving-the-Israel-Palestine-350x495.jpg 350w, https://www.foggs.org/wp-content/uploads/2024/11/Resolving-the-Israel-Palestine.jpg 1414w",
+    "filename": "Resolving-the-Israel-Palestine.jpg 1414w",
+    "status": null,
+    "last_modified": null,
+    "content_length": null,
+    "content_type": null,
+    "local_match": "assets/files/2024/11/FancisMODonnell_Resolving_the_Israel_Palestine_Conundrum_FOGGS_Paper_November_2024.pdf"
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2024/12/FOGGS_WorkingPaper_StrategicForesight_December2024.pdf",
+    "filename": "FOGGS_WorkingPaper_StrategicForesight_December2024.pdf",
+    "status": 200,
+    "last_modified": "Thu, 19 Dec 2024 15:44:08 GMT",
+    "content_length": "910428",
+    "content_type": "application/pdf",
+    "local_match": "assets/files/2024/12/FOGGS_WorkingPaper_StrategicForesight_December2024.pdf"
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2024/12/MAPPING-STRATEGIC-FORESIGHT-REPORTING-AROUND-THE-WORLD-233x300.png",
+    "filename": "MAPPING-STRATEGIC-FORESIGHT-REPORTING-AROUND-THE-WORLD-233x300.png",
+    "status": 200,
+    "last_modified": "Thu, 19 Dec 2024 15:45:30 GMT",
+    "content_length": "46463",
+    "content_type": "image/png",
+    "local_match": "assets/files/publications/MAPPING-STRATEGIC-FORESIGHT-REPORTING-AROUND-THE-WORLD-233x300.png"
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2024/12/MAPPING-STRATEGIC-FORESIGHT-REPORTING-AROUND-THE-WORLD-233x300.png 233w, https://www.foggs.org/wp-content/uploads/2024/12/MAPPING-STRATEGIC-FORESIGHT-REPORTING-AROUND-THE-WORLD-796x1024.png 796w, https://www.foggs.org/wp-content/uploads/2024/12/MAPPING-STRATEGIC-FORESIGHT-REPORTING-AROUND-THE-WORLD-768x988.png 768w, https://www.foggs.org/wp-content/uploads/2024/12/MAPPING-STRATEGIC-FORESIGHT-REPORTING-AROUND-THE-WORLD-1194x1536.png 1194w, https://www.foggs.org/wp-content/uploads/2024/12/MAPPING-STRATEGIC-FORESIGHT-REPORTING-AROUND-THE-WORLD-350x450.png 350w, https://www.foggs.org/wp-content/uploads/2024/12/MAPPING-STRATEGIC-FORESIGHT-REPORTING-AROUND-THE-WORLD.png 1555w",
+    "filename": "MAPPING-STRATEGIC-FORESIGHT-REPORTING-AROUND-THE-WORLD.png 1555w",
+    "status": null,
+    "last_modified": null,
+    "content_length": null,
+    "content_type": null,
+    "local_match": "assets/files/publications/MAPPING-STRATEGIC-FORESIGHT-REPORTING-AROUND-THE-WORLD-233x300.png"
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2025/06/ArielFrancaisEuropeanSecurityintheageofTrumpandPutinFOGGSPaperJune2025.pdf",
+    "filename": "ArielFrancaisEuropeanSecurityintheageofTrumpandPutinFOGGSPaperJune2025.pdf",
+    "status": 200,
+    "last_modified": "Mon, 23 Jun 2025 18:27:43 GMT",
+    "content_length": "809470",
+    "content_type": "application/pdf",
+    "local_match": "assets/files/2025/06/ArielFrancaisEuropeanSecurityintheageofTrumpandPutinFOGGSPaperJune2025.pdf"
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2025/06/European-security-in-the-age-of-Trump-and-Putin-212x300.jpg",
+    "filename": "European-security-in-the-age-of-Trump-and-Putin-212x300.jpg",
+    "status": 200,
+    "last_modified": "Mon, 23 Jun 2025 18:28:48 GMT",
+    "content_length": "17264",
+    "content_type": "image/jpeg",
+    "local_match": "assets/files/publications/European-security-in-the-age-of-Trump-and-Putin-212x300.jpg"
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2025/06/European-security-in-the-age-of-Trump-and-Putin-212x300.jpg 212w, https://www.foggs.org/wp-content/uploads/2025/06/European-security-in-the-age-of-Trump-and-Putin-724x1024.jpg 724w, https://www.foggs.org/wp-content/uploads/2025/06/European-security-in-the-age-of-Trump-and-Putin-768x1086.jpg 768w, https://www.foggs.org/wp-content/uploads/2025/06/European-security-in-the-age-of-Trump-and-Putin-1086x1536.jpg 1086w, https://www.foggs.org/wp-content/uploads/2025/06/European-security-in-the-age-of-Trump-and-Putin-350x495.jpg 350w, https://www.foggs.org/wp-content/uploads/2025/06/European-security-in-the-age-of-Trump-and-Putin.jpg 1414w",
+    "filename": "European-security-in-the-age-of-Trump-and-Putin.jpg 1414w",
+    "status": null,
+    "last_modified": null,
+    "content_length": null,
+    "content_type": null,
+    "local_match": "assets/files/2025/06/ArielFrancaisEuropeanSecurityintheageofTrumpandPutinFOGGSPaperJune2025.pdf"
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2025/06/FrancisODonnell_FOGGSPaper_WorldPeaceReclaimingtheUNanditsIdeals.pdf",
+    "filename": "FrancisODonnell_FOGGSPaper_WorldPeaceReclaimingtheUNanditsIdeals.pdf",
+    "status": 200,
+    "last_modified": "Tue, 10 Jun 2025 13:11:58 GMT",
+    "content_length": "1530222",
+    "content_type": "application/pdf",
+    "local_match": "assets/files/2025/06/FrancisODonnell_FOGGSPaper_WorldPeaceReclaimingtheUNanditsIdeals.pdf"
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2025/06/Resolving-the-Israel-Palestine-8.75-x-11.25-in-233x300.png",
+    "filename": "Resolving-the-Israel-Palestine-8.75-x-11.25-in-233x300.png",
+    "status": 200,
+    "last_modified": "Tue, 10 Jun 2025 13:16:55 GMT",
+    "content_length": "15367",
+    "content_type": "image/png",
+    "local_match": "assets/files/publications/Resolving-the-Israel-Palestine-8.75-x-11.25-in-233x300.png"
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2025/06/Resolving-the-Israel-Palestine-8.75-x-11.25-in-233x300.png 233w, https://www.foggs.org/wp-content/uploads/2025/06/Resolving-the-Israel-Palestine-8.75-x-11.25-in-768x987.png 768w, https://www.foggs.org/wp-content/uploads/2025/06/Resolving-the-Israel-Palestine-8.75-x-11.25-in-350x450.png 350w, https://www.foggs.org/wp-content/uploads/2025/06/Resolving-the-Israel-Palestine-8.75-x-11.25-in.png 778w",
+    "filename": "Resolving-the-Israel-Palestine-8.75-x-11.25-in.png 778w",
+    "status": null,
+    "last_modified": null,
+    "content_length": null,
+    "content_type": null,
+    "local_match": "assets/files/publications/Resolving-the-Israel-Palestine-8.75-x-11.25-in-233x300.png"
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2025/06/SudhaReddyJudgementDayinGazaFOGGSPaperJune2025.pdf",
+    "filename": "SudhaReddyJudgementDayinGazaFOGGSPaperJune2025.pdf",
+    "status": 200,
+    "last_modified": "Tue, 17 Jun 2025 14:02:37 GMT",
+    "content_length": "925418",
+    "content_type": "application/pdf",
+    "local_match": "assets/files/2025/06/SudhaReddyJudgementDayinGazaFOGGSPaperJune2025.pdf"
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2025/06/unnamed-2-212x300.jpg",
+    "filename": "unnamed-2-212x300.jpg",
+    "status": 200,
+    "last_modified": "Mon, 23 Jun 2025 07:23:44 GMT",
+    "content_length": "14373",
+    "content_type": "image/jpeg",
+    "local_match": "assets/files/publications/unnamed-2-212x300.jpg"
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/2025/06/unnamed-2-212x300.jpg 212w, https://www.foggs.org/wp-content/uploads/2025/06/unnamed-2-724x1024.jpg 724w, https://www.foggs.org/wp-content/uploads/2025/06/unnamed-2-768x1086.jpg 768w, https://www.foggs.org/wp-content/uploads/2025/06/unnamed-2-1086x1536.jpg 1086w, https://www.foggs.org/wp-content/uploads/2025/06/unnamed-2-350x495.jpg 350w, https://www.foggs.org/wp-content/uploads/2025/06/unnamed-2.jpg 1414w",
+    "filename": "unnamed-2.jpg 1414w",
+    "status": null,
+    "last_modified": null,
+    "content_length": null,
+    "content_type": null,
+    "local_match": "assets/files/publications/unnamed-2-212x300.jpg"
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/elementor/css/post-1968.css?ver=1788322242",
+    "filename": "post-1968.css",
+    "status": 200,
+    "last_modified": "Wed, 02 Sep 2026 04:10:42 GMT",
+    "content_length": null,
+    "content_type": "text/css",
+    "local_match": null
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/elementor/css/post-537.css?ver=1788322242",
+    "filename": "post-537.css",
+    "status": 200,
+    "last_modified": "Wed, 02 Sep 2026 04:10:42 GMT",
+    "content_length": null,
+    "content_type": "text/css",
+    "local_match": null
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/elementor/css/post-6803.css?ver=1788330332",
+    "filename": "post-6803.css",
+    "status": 200,
+    "last_modified": "Wed, 02 Sep 2026 06:25:32 GMT",
+    "content_length": null,
+    "content_type": "text/css",
+    "local_match": null
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/elementor/google-fonts/css/merriweather.css?ver=1742263717",
+    "filename": "merriweather.css",
+    "status": 200,
+    "last_modified": "Tue, 18 Mar 2025 02:08:37 GMT",
+    "content_length": null,
+    "content_type": "text/css",
+    "local_match": null
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/elementor/google-fonts/css/opensans.css?ver=1742263724",
+    "filename": "opensans.css",
+    "status": 200,
+    "last_modified": "Tue, 18 Mar 2025 02:08:44 GMT",
+    "content_length": null,
+    "content_type": "text/css",
+    "local_match": null
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/elementor/thumbs/COVIDEA-Primer-cover-owmonn7i6smaw2vj6v2212u1tou40qm5a1ycnqjobc.png",
+    "filename": "COVIDEA-Primer-cover-owmonn7i6smaw2vj6v2212u1tou40qm5a1ycnqjobc.png",
+    "status": 200,
+    "last_modified": "Thu, 15 Feb 2024 11:47:23 GMT",
+    "content_length": "29781",
+    "content_type": "image/png",
+    "local_match": null
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/elementor/thumbs/FOGGS-UN2100-Initiative-Background-Paper_COVER-January-2019-or68khtopz1wvgja1pid0a06mbx7knip127tx1b93s.png",
+    "filename": "FOGGS-UN2100-Initiative-Background-Paper_COVER-January-2019-or68khtopz1wvgja1pid0a06mbx7knip127tx1b93s.png",
+    "status": 200,
+    "last_modified": "Thu, 15 Feb 2024 11:49:00 GMT",
+    "content_length": "24203",
+    "content_type": "image/png",
+    "local_match": null
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/elementor/thumbs/FOGGS-and-HumanizaCom_Global-South-Perspectives-Report-September-2023-COVER-qcczqduxmdmpftri1g5i5yfgfcg1fbr4d34g36t048.png",
+    "filename": "FOGGS-and-HumanizaCom_Global-South-Perspectives-Report-September-2023-COVER-qcczqduxmdmpftri1g5i5yfgfcg1fbr4d34g36t048.png",
+    "status": 200,
+    "last_modified": "Thu, 15 Feb 2024 11:43:49 GMT",
+    "content_length": "72690",
+    "content_type": "image/png",
+    "local_match": null
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/elementor/thumbs/FOGGS_Action-Plan-May-2020_full-cover-op7rbhtd6c3yaufnc2442v02s834002vh32vk9iva0.png",
+    "filename": "FOGGS_Action-Plan-May-2020_full-cover-op7rbhtd6c3yaufnc2442v02s834002vh32vk9iva0.png",
+    "status": 200,
+    "last_modified": "Thu, 15 Feb 2024 11:48:09 GMT",
+    "content_length": "29767",
+    "content_type": "image/png",
+    "local_match": null
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/elementor/thumbs/GRC-concept-revisited-August-2024-cover-image-qt6k2aq2hdz2oao7oprolejctmf61sn9zeetiacxqw.png",
+    "filename": "GRC-concept-revisited-August-2024-cover-image-qt6k2aq2hdz2oao7oprolejctmf61sn9zeetiacxqw.png",
+    "status": 200,
+    "last_modified": "Wed, 11 Sep 2024 12:50:41 GMT",
+    "content_length": "108335",
+    "content_type": "image/png",
+    "local_match": null
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/elementor/thumbs/M4CE-Project_Background-Paper_Cover-September-2021-pe2n86fizbhbm1wifojstrid8i5do48pqwjk7p06vs.jpg",
+    "filename": "M4CE-Project_Background-Paper_Cover-September-2021-pe2n86fizbhbm1wifojstrid8i5do48pqwjk7p06vs.jpg",
+    "status": 200,
+    "last_modified": "Thu, 15 Feb 2024 11:46:22 GMT",
+    "content_length": "13349",
+    "content_type": "image/jpeg",
+    "local_match": null
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/elementor/thumbs/PRG-Booklet-cover-Sep2023-qc8y5h2fp37vmmh9a1atqhcn1k87ppp7sziaydk15k.png",
+    "filename": "PRG-Booklet-cover-Sep2023-qc8y5h2fp37vmmh9a1atqhcn1k87ppp7sziaydk15k.png",
+    "status": 200,
+    "last_modified": "Thu, 15 Feb 2024 11:43:38 GMT",
+    "content_length": "150214",
+    "content_type": "image/png",
+    "local_match": null
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/elementor/thumbs/Screenshot-2023-08-16-at-9.06.25-PM-qb04w5w5r5rbyt0gzarr1l7af9wct9sxwzlns7d32w.png",
+    "filename": "Screenshot-2023-08-16-at-9.06.25-PM-qb04w5w5r5rbyt0gzarr1l7af9wct9sxwzlns7d32w.png",
+    "status": 200,
+    "last_modified": "Thu, 15 Feb 2024 11:45:46 GMT",
+    "content_length": "40552",
+    "content_type": "image/png",
+    "local_match": null
+  },
+  {
+    "url": "https://www.foggs.org/wp-content/uploads/elementor/thumbs/Screenshot-2024-01-24-at-8.22.06-PM-qisbwdsoyue43z7bv75skfrxwler3fjlalmcjvlo0o.png",
+    "filename": "Screenshot-2024-01-24-at-8.22.06-PM-qisbwdsoyue43z7bv75skfrxwler3fjlalmcjvlo0o.png",
+    "status": 200,
+    "last_modified": "Thu, 15 Feb 2024 11:44:06 GMT",
+    "content_length": "36344",
+    "content_type": "image/png",
+    "local_match": null
+  }
+]

@@ -151,13 +151,13 @@
 /* Logo-backed front faces with a light overlay so text stays readable. */
 .cube-wrapper:nth-child(1) .face-front { background-image: url("../files/Logos/Global-Reslience-Council.png"); }
 .cube-wrapper:nth-child(2) .face-front { background-image: url("../files/Logos/Democrat.jpg"); }
-.cube-wrapper:nth-child(3) .face-front { background-image: url("../files/Logos/ProjectCASA.jpg"); }
-.cube-wrapper:nth-child(4) .face-front { background-image: url("../files/Logos/GSPNLogo.jpg"); }
+.cube-wrapper:nth-child(3) .face-front { background-image: url("../files/Logos/Katoikos.png"); }
+.cube-wrapper:nth-child(4) .face-front { background-image: url("../files/Logos/PRG.png"); }
 .cube-wrapper:nth-child(5) .face-front { background-image: url("../files/Hexalogue.png"); }
-.cube-wrapper:nth-child(6) .face-front { background-image: url("../files/Logos/COVIDEA.png"); }
+.cube-wrapper:nth-child(6) .face-front { background-image: url("../files/Logos/GSPNLogo.jpg"); }
 .cube-wrapper:nth-child(7) .face-front { background-image: url("../files/Logos/FOGGS-Open-Consultation-Mondays.png"); }
-.cube-wrapper:nth-child(8) .face-front { background-image: url("../files/Logos/Katoikos.png"); }
-.cube-wrapper:nth-child(9) .face-front { background-image: url("../files/Logos/PRG.png"); }
+.cube-wrapper:nth-child(8) .face-front { background-image: url("../files/Logos/ProjectCASA.jpg"); }
+.cube-wrapper:nth-child(9) .face-front { background-image: url("../files/Logos/COVIDEA.png"); }
 
 /* Show 3D cubes only when JS marks the page as enhanced. */
 body.js-enabled .cube-shell { display: block; }
