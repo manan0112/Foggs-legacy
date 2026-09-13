@@ -726,6 +726,11 @@ small.muted {
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
+/* GRC figures styling */
+.figures-row{display:flex;flex-direction:column;align-items:center;gap:20px;margin:24px 0 32px}
+.figure-graphic{flex:0 0 auto;width:auto;margin:0 auto;text-align:center}
+.figure-graphic img.img-fluid{width:100%;height:auto;border:1px solid #e6e6e6;padding:6px;background:#fff}
+.figure-graphic figcaption{display:none}
 .language-links {
   display: flex;
   flex-wrap: wrap;
