@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Share — FOGGS Legacy</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/files/favicon-32.png?v=2">
+  <link rel="icon" type="image/png" sizes="180x180" href="assets/files/favicon-180.png?v=2">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/files/favicon-180.png?v=2">
+  <link rel="shortcut icon" href="assets/files/favicon-32.png?v=2">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="assets/js/layout.js" defer></script>
+  <style>
+    .foggs-share {
+      max-width: 1040px;
+      margin: 52px auto;
+      padding: 24px 18px 10px;
+      text-align: center;
+      font-family: "Helvetica Neue", Arial, sans-serif;
+    }
+
+    .share-card {
+      background: rgba(255, 255, 255, 0.72);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      box-shadow: 0 14px 30px rgba(47, 75, 112, 0.08);
+      padding: clamp(24px, 4vw, 40px);
+      backdrop-filter: blur(2px);
+    }
+
+    .share-header {
+      margin-bottom: 26px;
+    }
+
+    .share-kicker {
+      display: inline-block;
+      margin-bottom: 12px;
+      font-size: 11px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    .share-header h1 {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(2rem, 4vw, 3rem);
+      color: var(--text);
+      letter-spacing: -0.03em;
+    }
+
+    .share-buttons {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+      gap: 16px;
+    }
+
+    .share-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      min-height: 64px;
+      width: 100%;
+      padding: 14px 18px;
+      border-radius: 14px;
+      border: 1px solid rgba(47, 75, 112, 0.12);
+      background: var(--surface);
+      color: var(--text);
+      text-decoration: none;
+      cursor: pointer;
+      font-size: 0.96rem;
+      font-weight: 700;
+      transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+      box-shadow: 0 6px 18px rgba(31, 31, 27, 0.04);
+    }
+
+    .share-btn:hover,
+    .share-btn:focus-visible {
+      transform: translateY(-2px);
+      border-color: rgba(47, 75, 112, 0.25);
+      box-shadow: 0 12px 22px rgba(47, 75, 112, 0.12);
+      text-decoration: none;
+    }
+
+    .share-btn img,
+    .share-btn svg,
+    .share-btn .share-icon {
+      width: 20px;
+      height: 20px;
+      flex-shrink: 0;
+      display: inline-block;
+    }
+
+    .share-btn.facebook { background: #f2f7ff; }
+    .share-btn.x { background: #f7f7f7; }
+    .share-btn.linkedin { background: #edf6ff; }
+    .share-btn.bluesky { background: #f5f3ff; }
+    .share-btn.whatsapp { background: #eefaf2; }
+    .share-btn.email { background: #f7f5ef; }
+    .share-btn.copy { background: #f5f5f3; }
+
+    .share-btn .share-icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2rem;
+      line-height: 1;
+    }
+
+    .share-btn svg .brand-icon { fill: currentColor; }
+
+    @media (max-width: 560px) {
+      .foggs-share {
+        margin: 30px auto;
+        padding-left: 12px;
+        padding-right: 12px;
+      }
+
+      .share-buttons {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 420px) {
+      .share-card {
+        padding: 18px 14px;
+      }
+
+      .share-buttons {
+        grid-template-columns: 1fr;
+      }
+
+      .share-btn {
+        min-height: 58px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div data-include="header"></div>
+
+  <main class="main">
+    <div class="foggs-share">
+      <div class="share-card">
+        <div class="share-header">
+          <span class="share-kicker">Spread the word</span>
+          <h1>Share the FOGGS Legacy</h1>
+        </div>
+
+        <div class="share-buttons">
+          <a class="share-btn facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.foggs.org" target="_blank" rel="noopener noreferrer" aria-label="Share on Facebook">
+            <img src="assets/files/social/facebook.svg" alt="" aria-hidden="true">
+            <span>Facebook</span>
+          </a>
+
+          <a class="share-btn x" href="https://twitter.com/intent/tweet?text=The%20FOGGS%20Legacy%20website%20is%20now%20live%2C%20preserving%2012%20years%20of%20research%2C%20projects%2C%20publications%2C%20events%20and%20networks%20on%20global%20governance%20and%20sustainability.%0A%0Ahttps%3A%2F%2Fwww.foggs.org" target="_blank" rel="noopener noreferrer" aria-label="Share on X">
+            <img src="assets/files/social/x.svg" alt="" aria-hidden="true">
+            <span>X</span>
+          </a>
+
+          <a class="share-btn linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.foggs.org" target="_blank" rel="noopener noreferrer" aria-label="Share on LinkedIn">
+            <img src="assets/files/social/linkedin.svg" alt="" aria-hidden="true">
+            <span>LinkedIn</span>
+          </a>
+
+          <a class="share-btn bluesky" href="https://bsky.app/intent/compose?text=The%20FOGGS%20Legacy%20website%20is%20now%20live%2C%20preserving%2012%20years%20of%20research%2C%20projects%2C%20publications%2C%20events%20and%20networks%20on%20global%20governance%20and%20sustainability.%0A%0Ahttps%3A%2F%2Fwww.foggs.org" target="_blank" rel="noopener noreferrer" aria-label="Share on Bluesky">
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" role="img">
+              <path class="brand-icon" d="M6.2 8.8c1.6 2.3 3.4 4.3 5.1 5.8 1.7-1.5 3.5-3.5 5.1-5.8.8-1.1 1.7-2.3 1.7-3.1 0-.8-.6-1.3-1.3-1.3-.6 0-1.2.4-1.7 1.1-.7.9-1.3 1.9-1.9 2.8-.7 1.1-1.3 2-2.1 2.9-.8-.9-1.4-1.8-2.1-2.9-.6-.9-1.2-1.9-1.9-2.8-.5-.7-1.1-1.1-1.7-1.1-.7 0-1.3.5-1.3 1.3 0 .8.9 2 1.7 3.1Z" fill="#0a84ff"/>
+            </svg>
+            <span>Bluesky</span>
+          </a>
+
+          <a class="share-btn whatsapp" href="https://wa.me/?text=The%20FOGGS%20Legacy%20website%20is%20now%20live%2C%20preserving%2012%20years%20of%20research%2C%20projects%2C%20publications%2C%20events%20and%20networks%20on%20global%20governance%20and%20sustainability.%20https%3A%2F%2Fwww.foggs.org" target="_blank" rel="noopener noreferrer" aria-label="Share on WhatsApp">
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" role="img">
+              <path class="brand-icon" d="M12.04 2a9.94 9.94 0 0 0-8.6 15.18L2 22l4.9-1.3A9.96 9.96 0 1 0 12.04 2Zm0 1.9a8.05 8.05 0 0 1 4.8 1.46c1.34 1.14 2.12 2.64 2.15 4.32A8.08 8.08 0 0 1 6.96 17l-.38.3-2.93.78 1.2-2.8-.22-.37a8.08 8.08 0 0 1 6.41-13.03Zm-2.93 3.03c-.26 0-.6.1-.9.42-.33.33-.97.94-.97 2.29 0 1.35.99 2.64 1.13 2.82.14.18 1.93 3.09 4.73 4.2 2.33 1.02 2.8.82 3.3.77.5-.05 1.62-.66 1.85-1.31.23-.65.23-1.2.16-1.32-.08-.11-.3-.18-.63-.31-.33-.14-1.93-.96-2.23-1.07-.3-.11-.52-.17-.74.17-.21.34-.82 1.07-1.01 1.29-.19.22-.38.25-.7.08-.32-.17-1.36-.5-2.6-1.62-1.03-.92-1.72-2.06-1.92-2.4-.2-.34-.02-.52.15-.68.15-.15.34-.39.52-.58.17-.19.23-.33.35-.55.12-.21.06-.4-.03-.57-.09-.17-.82-1.97-1.13-2.69-.3-.72-.6-.62-.83-.63Z" fill="#25D366"/>
+            </svg>
+            <span>WhatsApp</span>
+          </a>
+
+          <a class="share-btn email" href="mailto:?subject=FOGGS%20Legacy%20Website&body=The%20FOGGS%20Legacy%20website%20is%20now%20live%2C%20preserving%2012%20years%20of%20research%2C%20projects%2C%20publications%2C%20events%20and%20networks%20on%20global%20governance%20and%20sustainability.%0A%0Ahttps%3A%2F%2Fwww.foggs.org" aria-label="Share by email">
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" role="img">
+              <path d="M3.5 6.5A2.5 2.5 0 0 1 6 4h12a2.5 2.5 0 0 1 2.5 2.5v11A2.5 2.5 0 0 1 18 20H6a2.5 2.5 0 0 1-2.5-2.5v-11Zm2.1.7L12 12.8l6.4-5.6H5.6Zm13.4 1.6-6.2 5.3a1.2 1.2 0 0 1-1.6 0L4.9 8.8v9.7c0 .4.3.7.7.7h12.8c.4 0 .7-.3.7-.7V8.8Z" fill="#4d5b67"/>
+            </svg>
+            <span>Email</span>
+          </a>
+
+          <button class="share-btn copy" type="button" aria-label="Copy the FOGGS website link" onclick="navigator.clipboard.writeText('https://www.foggs.org'); const label = this.querySelector('.copy-label'); const original = label.textContent; label.textContent='Copied'; setTimeout(() => label.textContent = original, 1600);">
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" role="img">
+              <path d="M9.5 9.5h8.5v8.5H9.5V9.5Zm-4.5 0h2.5v8.5A1.5 1.5 0 0 0 9 19.5h8.5v2.5H9A4 4 0 0 1 5 18V9.5Zm6.5-6h8.5A4 4 0 0 1 24 7.5v8.5h-2.5V7.5a1.5 1.5 0 0 0-1.5-1.5H11.5V3.5Zm-6.5 0A2.5 2.5 0 0 1 7.5 1h8.5A2.5 2.5 0 0 1 18.5 3.5V7h-2.5V3.5A.5.5 0 0 0 15.5 3H7.5a.5.5 0 0 0-.5.5V7H4.5V3.5Z" fill="#2f4b70"/>
+            </svg>
+            <span class="copy-label">Copy link</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div data-include="footer"></div>
+</body>
+</html>
