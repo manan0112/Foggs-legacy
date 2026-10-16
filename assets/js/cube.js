@@ -24,7 +24,8 @@
       // Raise threshold to avoid accidental small-pointer movements
       // being interpreted as drags which suppress link clicks.
       dragThreshold: 10,
-      rafId: null
+      rafId: null,
+      renderRafId: null // Coalesces many pointermoves into one transform write per frame.
     };
 
     applyRotation();
@@ -32,10 +33,20 @@
     cubeEl.addEventListener('pointerdown', onPointerDown, { passive: false });
     cubeEl.addEventListener('click', onCubeClick, true);
 
+    // Each face is an <a>; pressing and moving on a link starts a native
+    // drag-and-drop, which fires pointercancel and aborts our rotation — so
+    // the cube only spun from the bare edges/corners. Suppress native dragging
+    // so a drag starting anywhere on a face rotates the cube in any direction.
+    cubeEl.addEventListener('dragstart', function (event) { event.preventDefault(); });
+
     function onPointerDown(event) {
       if (state.rafId) {
         cancelAnimationFrame(state.rafId);
         state.rafId = null;
+      }
+      if (state.renderRafId) {
+        cancelAnimationFrame(state.renderRafId);
+        state.renderRafId = null;
       }
 
       state.isDragging = false;
@@ -65,16 +76,32 @@
 
       if (!state.isDragging) return;
 
-      state.velX = dx * sensitivity;
-      state.velY = dy * sensitivity;
+      const moveX = dx * sensitivity;
+      const moveY = dy * sensitivity;
 
-      state.rotationY += state.velX;
-      state.rotationX = clamp(state.rotationX - state.velY, -clampX, clampX);
+      state.rotationY += moveX;
+      state.rotationX = clamp(state.rotationX - moveY, -clampX, clampX);
+
+      // Smooth velocity (EMA) so a flick carries momentum and a slow release —
+      // whose final delta is near zero — doesn't abruptly kill the coast.
+      state.velX = state.velX * 0.5 + moveX * 0.5;
+      state.velY = state.velY * 0.5 + moveY * 0.5;
+
       state.startX = event.clientX;
       state.startY = event.clientY;
-      applyRotation();
+      scheduleRender();
 
       event.preventDefault();
+    }
+
+    // Write the transform at most once per animation frame, no matter how many
+    // pointermove events the device fires — keeps the drag smooth under load.
+    function scheduleRender() {
+      if (state.renderRafId) return;
+      state.renderRafId = requestAnimationFrame(function () {
+        state.renderRafId = null;
+        applyRotation();
+      });
     }
 
     function onPointerUp(event) {
@@ -96,6 +123,10 @@
       }
 
       if (state.dragOccurred) {
+        if (state.renderRafId) {
+          cancelAnimationFrame(state.renderRafId);
+          state.renderRafId = null;
+        }
         startMomentum();
       }
     }

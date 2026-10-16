@@ -67,6 +67,22 @@
   color: #4f4f4b;
 }
 
+/* Plain-language caption shown under each cube in the JS view; non-JS uses .fallback-note.
+   margin-top clears the cube's 3D faces, which overflow the cube box while rotating.
+   pointer-events:none so the caption never intercepts a drag aimed at those overflowing faces. */
+.cube-caption {
+  display: none;
+  margin: 3.5rem auto 0;
+  max-width: 220px;
+  text-align: center;
+  font-size: 0.9rem;
+  line-height: 1.3;
+  color: #4f4f4b;
+  pointer-events: none;
+}
+
+body.js-enabled .cube-caption { display: block; }
+
 /* 3D cube container with perspective so faces appear dimensional. The depth keeps faces readable while allowing rotation without distortion. */
 .cube-shell {
   width: var(--cube-size);
