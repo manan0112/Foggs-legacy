@@ -11,17 +11,17 @@ $explicitRoutes = [
     '/about' => '/about.html',
     '/contact-us' => '/contact.html',
     '/contact' => '/contact.html',
-    '/projects' => '/work.html',
+    '/projects' => '/activities.html',
     '/publications' => '/publications.html',
-    '/events' => '/archive.html',
+    '/events' => '/events.html',
     '/share' => '/share.html',
     '/share/' => '/share.html',
     '/newsletter' => '/contact.html#newsletter',
     '/executive-board' => '/about.html#leadership',
     '/secretariat' => '/about.html#leadership',
     '/advisory-board' => '/about.html#leadership',
-    '/vacancies-and-internships-as-of-may-2022' => '/work.html',
-    '/global-south-perspectives' => '/work.html',
+    '/vacancies-and-internships-as-of-may-2022' => '/activities.html',
+    '/global-south-perspectives' => '/gspn.html',
 ];
 
 // Load CSV once per request into memory.
@@ -33,8 +33,8 @@ function loadLegacyMap(string $csvPath): array
 
     $map = [];
     if (($handle = fopen($csvPath, 'r')) !== false) {
-        $header = fgetcsv($handle); // discard header
-        while (($row = fgetcsv($handle)) !== false) {
+        fgetcsv($handle, null, ',', '"', ''); // discard header row
+        while (($row = fgetcsv($handle, null, ',', '"', '')) !== false) {
             [$url, $type] = $row;
             $path = parse_url($url, PHP_URL_PATH);
             if ($path) {
@@ -88,8 +88,20 @@ function chooseFallback(string $path): string
     if (str_contains($lower, 'about') || str_contains($lower, 'board')) {
         return '/about.html';
     }
-    if (str_contains($lower, 'grc') || str_contains($lower, 'prg') || str_contains($lower, 'un2100')) {
-        return '/work.html';
+    if (str_contains($lower, 'grc')) {
+        return '/grc.html';
+    }
+    if (str_contains($lower, 'prg') || str_contains($lower, 'peace')) {
+        return '/prg.html';
+    }
+    if (str_contains($lower, 'gspn') || str_contains($lower, 'global-south')) {
+        return '/gspn.html';
+    }
+    if (str_contains($lower, 'event')) {
+        return '/events.html';
+    }
+    if (str_contains($lower, 'project') || str_contains($lower, 'un2100') || str_contains($lower, 'initiative')) {
+        return '/activities.html';
     }
     return '/archive.html';
 }

@@ -1,0 +1,49 @@
+# FOGGS Legacy — Apache configuration
+# Static-first archive with a PHP fallback router for legacy foggs.org URLs.
+
+DirectoryIndex index.html
+
+# --- Legacy URL routing -------------------------------------------------
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Forbid hidden files/dirs (.git, .DS_Store, .htaccess, ...) except .well-known
+  RewriteRule "(^|/)\.(?!well-known/)" - [F]
+
+  # Serve real files and directories directly
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # Everything else -> legacy router (maps historic URLs to files/pages)
+  RewriteRule ^ router.php [L]
+</IfModule>
+
+# --- Protect internal data files (used server-side / internally only) ---
+<FilesMatch "^(foggs_urls|campaign_reports)\.csv$">
+  Require all denied
+</FilesMatch>
+
+# --- Security headers ---------------------------------------------------
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+
+# --- Performance: compression + caching ---------------------------------
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css text/plain text/csv \
+    application/javascript application/json image/svg+xml
+</IfModule>
+
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/css "access plus 7 days"
+  ExpiresByType application/javascript "access plus 7 days"
+  ExpiresByType image/png "access plus 30 days"
+  ExpiresByType image/jpeg "access plus 30 days"
+  ExpiresByType image/svg+xml "access plus 30 days"
+  ExpiresByType application/pdf "access plus 30 days"
+  ExpiresByType text/html "access plus 1 day"
+</IfModule>

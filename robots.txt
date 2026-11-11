@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /router.php
+Disallow: /foggs_urls.csv
+Disallow: /assets/files/campaign_exports/campaign_reports.csv
+
+Sitemap: https://www.foggs.world/sitemap.xml
