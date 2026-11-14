@@ -4,8 +4,8 @@
   const footerHost = document.querySelector('[data-include="footer"]');
 
   await Promise.all([
-    maybeInject(headerHost, 'assets/includes/header.html'),
-    maybeInject(footerHost, 'assets/includes/footer.html')
+    maybeInject(headerHost, 'assets/includes/header.html?v=20261114'),
+    maybeInject(footerHost, 'assets/includes/footer.html?v=20261114')
   ]);
 
   setActiveNav();
