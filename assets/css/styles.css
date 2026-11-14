@@ -43,7 +43,7 @@ header.site-header {
 .navbar {
   max-width: none;
   margin: 0;
-  padding: 18px 40px 18px 72px;
+  padding: 18px 40px 18px 108px;
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
