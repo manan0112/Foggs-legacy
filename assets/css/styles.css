@@ -41,11 +41,11 @@ header.site-header {
 }
 
 .navbar {
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 18px 16px;
+  max-width: none;
+  margin: 0;
+  padding: 18px 40px 18px 72px;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: space-between;
   gap: 16px;
   font-family: "Helvetica Neue", Arial, sans-serif;
@@ -59,9 +59,11 @@ header.site-header {
 }
 
 .brand img {
-  height: 48px;
+  height: 64px;
   width: auto;
   display: block;
+  /* grow 1.33x leftward while keeping the right edge fixed */
+  margin-left: -68px;
 }
 
 .brand-text {
@@ -260,9 +262,9 @@ table.simple-table tr:hover td {
 }
 
 .footer {
-  max-width: 900px;
-  margin: 0 auto 48px;
-  padding: 0 16px;
+  max-width: none;
+  margin: 0 0 48px;
+  padding: 0 40px;
   color: var(--muted);
   font-size: 14px;
 }
@@ -284,6 +286,11 @@ table.simple-table tr:hover td {
 }
 
 .footer-email {
+  flex: 0 0 auto;
+  white-space: nowrap;
+}
+
+.footer-link {
   flex: 0 0 auto;
   white-space: nowrap;
 }
